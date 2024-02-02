@@ -20,6 +20,10 @@ const Abovethefoldcontact = () => {
 
   function contactme(event: any) {
     event.preventDefault();
+    if (name === "" || lastName === "" || email === "" || text === "") {
+      alert("Compila tutti i campi prima di inviare!");
+      return;
+    }
     console.log(name, lastName, email, email, text);
 
     emailjs
@@ -49,12 +53,15 @@ const Abovethefoldcontact = () => {
       <div className="container">
         <div className="contact-body">
           <div>
-            <h1 className="heading">Vuoi contattarmi? ✈️</h1>
-            <p>Parlami del tuo progetto. Ti aiuto a realizzarlo.</p>
-            <img src="../contactphoto.jpg" className="contact-photo" />
+            <h1 className="heading">Vuoi collaborare? ✈️</h1>
+            <p>
+              Hai un progetto in mente? Vuoi digitalizzare la tua attività?{" "}
+              <br /> Mandami un messaggio, possiamo realizzarlo insieme.
+            </p>
+            <img src="../contact-photo.JPG" className="contact-photo" />
             <span className="social-icon">
-              <Instagram width="50px" height="50px" />
               <Linkedin width="50px" height="50px" />
+              <Instagram width="50px" height="50px" />
               <Mail />
             </span>
           </div>
