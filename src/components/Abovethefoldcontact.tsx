@@ -3,38 +3,46 @@ import Instagram from "./Instagram";
 import Linkedin from "./Linkedin";
 import Mail from "./Mail";
 import TextField from "@mui/material/TextField";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const Abovethefoldcontact = () => {
-    const [name, setName] = useState('')
-    const [lastName, setLastName] = useState('')
-    const [email, setEmail] = useState('')
-    const [text, setText] = useState('')
+  const [name, setName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [text, setText] = useState("");
 
-    const template = {
-      form_name : name,
-      form_lastname : lastName,
-      form_email : email,
-      form_text : text,
-    };
-  
-  function contactme(event: any){
+  const template = {
+    form_name: name,
+    form_lastname: lastName,
+    form_email: email,
+    form_text: text,
+  };
 
-     event.preventDefault();
-     console.log(name, lastName, email, email, text)
-    
-     emailjs.send('service_rd3ok48', 'template_5xg2wrn', template, 'X8vOilcepKloZtdAE')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+  function contactme(event: any) {
+    event.preventDefault();
+    console.log(name, lastName, email, email, text);
 
-     setName('')
-     setLastName('')
-     setEmail('')
-     setText('')
-    }
+    emailjs
+      .send(
+        "service_rd3ok48",
+        "template_5xg2wrn",
+        template,
+        "X8vOilcepKloZtdAE"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    setName("");
+    setLastName("");
+    setEmail("");
+    setText("");
+  }
 
   return (
     <section className="abovethefoldcontact">
@@ -42,10 +50,8 @@ const Abovethefoldcontact = () => {
         <div className="contact-body">
           <div>
             <h1 className="heading">Vuoi contattarmi? ✈️</h1>
-            <p>
-              Parlami del tuo progetto. Ti aiuto a realizzarlo.
-            </p>
-            <img src="../public/contactphoto.jpg" className="contact-photo"/>
+            <p>Parlami del tuo progetto. Ti aiuto a realizzarlo.</p>
+            <img src="../contactphoto.jpg" className="contact-photo" />
             <span className="social-icon">
               <Instagram width="50px" height="50px" />
               <Linkedin width="50px" height="50px" />
@@ -64,7 +70,7 @@ const Abovethefoldcontact = () => {
                     id="standard-basic"
                     label="Nome"
                     variant="outlined"
-                    onChange={e => setName(e.target.value)}
+                    onChange={(e) => setName(e.target.value)}
                     value={name}
                   />
                   <div className="x-margin"></div>
@@ -73,7 +79,7 @@ const Abovethefoldcontact = () => {
                     id="standard-basic"
                     label="Cognome"
                     variant="outlined"
-                    onChange={e => setLastName(e.target.value)}
+                    onChange={(e) => setLastName(e.target.value)}
                     value={lastName}
                   />
                 </div>
@@ -84,7 +90,7 @@ const Abovethefoldcontact = () => {
                     id="standard-basic"
                     label="Email"
                     variant="outlined"
-                    onChange={e => setEmail(e.target.value)}
+                    onChange={(e) => setEmail(e.target.value)}
                     value={email}
                   />
                 </div>
@@ -97,13 +103,13 @@ const Abovethefoldcontact = () => {
                     rows={6}
                     defaultValue=""
                     variant="outlined"
-                    onChange={e => setText(e.target.value)}
+                    onChange={(e) => setText(e.target.value)}
                     value={text}
                   />
                 </div>
               </div>
               <div>
-              <input type="submit" value="Invia" className="formbutton"/>
+                <input type="submit" value="Invia" className="formbutton" />
               </div>
             </div>
           </form>

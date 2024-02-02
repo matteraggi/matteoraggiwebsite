@@ -17,7 +17,7 @@ const Abovethefoldabout = () => {
             PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
-        <img src="../public/chisonophoto.jpg" className="chisono-photo" />
+        <img src="../chisonophoto.jpg" className="chisono-photo" />
       </div>
     </section>
   );
