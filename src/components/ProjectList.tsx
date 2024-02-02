@@ -1,0 +1,40 @@
+import PortfolioCard from "./PortfolioCard";
+import PortfolioCardReverse from "./PortfolioCardReverse";
+
+const ProjectList = () => {
+  return (
+    <div className="projects-grid">
+      <PortfolioCard
+        heading="Squealer"
+        text="Un social network innovativo. Un social network delle persone, che premia chi crea contenuto valido, non chi ha followers."
+        sourceimage="../public/www.coca-cola.com_it_it.png"
+        linkwebsite="https://www.coca-cola.com/it/it"
+        linkcode="https://github.com/matteraggi/avvoltoio-smm"
+        code={true}
+        website={true}
+      />
+      <PortfolioCardReverse
+        heading="Depliant Hotel CHC"
+        text="Depliant di presentazione Hotel per un rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice. Riutilizzabile anche da altri gruppi."
+        sourceimage="../public/chc-hotel.png"
+        linkwebsite=""
+        linkcode=""
+        code={false}
+        website={false}
+      />
+      {/*
+      <PortfolioCard
+        heading=""
+        text=""
+        sourceimage=""
+        linkwebsite=""
+        linkcode=""
+        code={true}
+        website={true}
+      />
+       */}
+    </div>
+  );
+};
+
+export default ProjectList;
