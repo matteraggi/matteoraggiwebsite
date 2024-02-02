@@ -240,7 +240,7 @@ p {
 }
 
 .hero-img {
-  background-image: url("../public/matteoraggi.jpg");
+  background-image: url("../matteoraggi.jpg");
   width: 350px;
   height: 350px;
   background-size: cover;
@@ -551,7 +551,7 @@ nav ul a {
 
 .scrolling:hover {
   transition: transform 10s ease-in-out 0s;
-  transform: translateY(-83%);
+  transform: translateY(-80%);
 }
 
 .projects-grid .box-img img {
@@ -889,7 +889,7 @@ footer {
 
 .abovethefold-project {
   margin-top: 75px;
-  background-image: url("../public/projects-bg.png");
+  background-image: url("../projects-bg.png");
   background-position: center;
   background-size: cover;
   padding: 50px 0px;

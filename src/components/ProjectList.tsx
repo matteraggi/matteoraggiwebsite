@@ -7,15 +7,15 @@ const ProjectList = () => {
       <PortfolioCard
         heading="Squealer"
         text="Un social network innovativo. Un social network delle persone, che premia chi crea contenuto valido, non chi ha followers."
-        sourceimage="../www.coca-cola.com_it_it.png"
-        linkwebsite="https://www.coca-cola.com/it/it"
+        sourceimage="../squealer.jpeg"
+        linkwebsite=""
         linkcode="https://github.com/matteraggi/avvoltoio-smm"
         code={true}
-        website={true}
+        website={false}
       />
       <PortfolioCardReverse
         heading="Depliant Hotel CHC"
-        text="Depliant di presentazione Hotel per un rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice. Riutilizzabile anche da altri gruppi."
+        text="Depliant di presentazione Hotel per un rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice."
         sourceimage="../chc-hotel.png"
         linkwebsite=""
         linkcode=""
