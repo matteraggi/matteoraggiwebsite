@@ -120,6 +120,11 @@ const Abovethefoldcontact = () => {
               </div>
             </div>
           </form>
+          <span className="social-icon-mobile">
+            <Linkedin width="50px" height="50px" />
+            <Instagram width="50px" height="50px" />
+            <Mail />
+          </span>
         </div>
       </div>
     </section>
