@@ -2,22 +2,25 @@ const Abovethefoldabout = () => {
   return (
     <section className="abovethefoldabout">
       <div className="contenitoreaboutpage">
-        <div>
+        <div className="heading-about">
           <h1 className="heading">Non sai chi sono?</h1>
-          <h2 className="heading-2">Adesso mi presento! 🙋🏻‍♂️ </h2>
+          <div className="relative">
+            <h2 className="heading-2 inline">Adesso mi presento! </h2>
+            <h2 className="inline itsme"> 🙋🏻‍♂️</h2>
+          </div>
           <p className="body-contact">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Mi chiamo Matteo Raggi. Da sempre sono appassionato di Informatica e
+            attratto da lavori creativi. <br />
+            Lavori che mi lasciassero la possibilità di creare qualcosa di
+            nuovo. <br /> <br />
+            Nel 2021 mi sono iniziato ad interessare al mondo del freelancing e
+            ho deciso di aprire il mio primo Blog. <br /> <br />
+            Dopo quasi 3 anni di studio, tanti progetti personali e non, ho
+            deciso di iniziare la mia attività da libero professionista come
+            Sviluppatore Web.
           </p>
         </div>
-        <img src="../chisonophoto.jpg" className="chisono-photo" />
+        <img src="../matteoraggiphoto1.png" className="chisono-photo" />
       </div>
     </section>
   );
