@@ -15,7 +15,7 @@ const Abovethefold = () => {
         <div className="contenuto">
           <div className="main">
             <div className="main-text">
-              <h1 className="heading">Sono un <br />Full-Stack Developer 🧑🏻‍💻</h1>
+              <h1 className="heading">Full-Stack Developer 🧑🏻‍💻</h1>
               <p className="mt-3">
                 Ciao, sono Matteo Raggi. Creo Applicazioni Web e mi diverto. <br /> Based in Bologna, Italia📍
               </p>
