@@ -21,9 +21,9 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/blog">
+            <a href="/page">
               <div>Blog</div>
-            </NavLink>
+            </a>
           </li>
           <li>
             <NavLink to="/about">
@@ -88,7 +88,7 @@ const Navbar = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li onClick={() => hamburgerMenu()}>
-            <NavLink to="/blog">Blog</NavLink>
+            <a href="/page">Blog</a>
           </li>
           <li onClick={() => hamburgerMenu()}>
             <NavLink to="/about">About</NavLink>

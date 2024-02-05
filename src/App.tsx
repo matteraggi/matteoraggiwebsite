@@ -18,9 +18,6 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/progetti" element={<ProjectPage />} />
           <Route path="/contatti" element={<ContactPage />} />
-          <Route path="/progetti/squealer" element={<Homepage />} />
-          <Route path="/progetti/bolognafc" element={<Homepage />} />
-          <Route path="/progetti/unibo" element={<Homepage />} />
         </Routes>
       </Suspense>
       <Footer />
