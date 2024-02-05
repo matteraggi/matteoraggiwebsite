@@ -53,7 +53,7 @@ const Abovethefoldcontact = () => {
       <div className="container">
         <div className="contact-body">
           <div>
-            <h1 className="heading">Vuoi collaborare? ✈️</h1>
+            <h1 className="heading">Vuoi lavorare con me? ✈️</h1>
             <p>
               Hai un progetto in mente? Vuoi digitalizzare la tua attività?{" "}
               <br /> Mandami un messaggio, possiamo realizzarlo insieme.
