@@ -433,6 +433,10 @@ nav ul a {
   padding-top: 150px;
 }
 
+.padding-top- {
+  padding-top: 100px;
+}
+
 .main-text span {
   padding-top: 25px;
   display: flex;
@@ -1059,6 +1063,14 @@ ul li a.active {
   align-items: center;
   justify-content: center;
   max-width: 1085px;
+}
+
+.container-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
 }
 
 .post-grid {

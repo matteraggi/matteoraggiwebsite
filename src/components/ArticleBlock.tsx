@@ -22,7 +22,7 @@ const ArticleBlock = () => {
   */
 
   return (
-    <div className="padding-top">
+    <div className="padding-top-">
       <Link to="/blog">
         <img
           src="/arrow.svg"
