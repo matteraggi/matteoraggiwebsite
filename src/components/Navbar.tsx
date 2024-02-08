@@ -21,13 +21,13 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <a href="/page">
-              <div>Blog</div>
-            </a>
-          </li>
-          <li>
             <NavLink to="/about">
               <div>About</div>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/blog">
+              <div>Blog</div>
             </NavLink>
           </li>
           {/*<li>
@@ -88,10 +88,10 @@ const Navbar = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li onClick={() => hamburgerMenu()}>
-            <a href="/page">Blog</a>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li onClick={() => hamburgerMenu()}>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
           </li>
           {/* <li onClick={() => hamburgerMenu()}>
             <NavLink to="/servizi">Servizi</NavLink>
