@@ -7,20 +7,33 @@ const ContactPage = lazy(() => import("./pages/ContactPage"));
 const ProjectPage = lazy(() => import("./pages/ProjectPage"));
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import BlogPage from "./pages/BlogPage";
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+import ArticlePage from "./pages/ArticlePage";
+const API_URL = import.meta.env.VITE_NEXT_PUBLIC_WORDPRESS_API_ENDPOINT;
+
+const apollo = new ApolloClient({
+  uri: API_URL,
+  cache: new InMemoryCache(),
+});
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Suspense fallback={<div className="container">Loading...</div>}>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/progetti" element={<ProjectPage />} />
-          <Route path="/contatti" element={<ContactPage />} />
-        </Routes>
-      </Suspense>
-      <Footer />
+      <ApolloProvider client={apollo}>
+        <Navbar />
+        <Suspense fallback={<div className="container">Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/progetti" element={<ProjectPage />} />
+            <Route path="/contatti" element={<ContactPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:slug" element={<ArticlePage />}></Route>
+          </Routes>
+        </Suspense>
+        <Footer />
+      </ApolloProvider>
     </>
   );
 }
