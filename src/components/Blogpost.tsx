@@ -22,7 +22,7 @@ const Blogpost = () => {
   return (
     <div className="blog-box">
       <div className="container-blog">
-        <h3 className="text-xl">All my posts ({data.posts.nodes.length})</h3>
+        <h3 className="text-xl">Tutti i miei articoli ({data.posts.nodes.length})</h3>
         <div className="post-grid">
           {data.posts.nodes.map((post: any) => (
             <PostBlock key={post.slug} post={post} />

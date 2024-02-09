@@ -11,7 +11,6 @@ const ArticleBlock = () => {
       id: slug,
     },
   });
-  console.log(data);
 
   const postFound = Boolean(data?.post);
 

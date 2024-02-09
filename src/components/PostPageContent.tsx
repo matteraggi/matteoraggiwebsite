@@ -1,3 +1,5 @@
+import CommentsSection from "./CommentsSection";
+
 const PostPageContent = ({ post }: { post: any }) => {
   function fixImageSrc(content: any) {
     // Crea un elemento temporaneo per analizzare il contenuto HTML
@@ -21,7 +23,6 @@ const PostPageContent = ({ post }: { post: any }) => {
 
   // Utilizzo della funzione per correggere gli attributi delle immagini nel contenuto
   const fixedContent = fixImageSrc(post.content);
-
   return (
     <section className="blog-box">
       <div className="container-article">
@@ -46,6 +47,9 @@ const PostPageContent = ({ post }: { post: any }) => {
           className="post-content"
           dangerouslySetInnerHTML={{ __html: fixedContent }}
         ></div>
+        <div className="post-comments">
+          <CommentsSection postDbId={post.databaseId} />
+        </div>
       </div>
     </section>
   );

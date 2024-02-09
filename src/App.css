@@ -1175,3 +1175,37 @@ ul li a.active {
     width: 75%;
   }
 }
+
+.post-comments {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comment-button {
+  margin-top: 20px;
+  width: 80px;
+  border-radius: 15px;
+  background-color: #136bd0;
+  color: white;
+}
+
+.comment-form-section {
+  margin-top: 40px;
+}
+
+.single-comment {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #000;
+}
