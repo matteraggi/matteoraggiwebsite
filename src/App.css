@@ -887,7 +887,7 @@ footer {
 }
 
 .chisono-photo {
-  width: fit-content;
+  width: auto;
   height: 60vh;
   @media screen and (max-width: 1100px) {
     height: auto;
