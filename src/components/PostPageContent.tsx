@@ -47,7 +47,7 @@ const PostPageContent = ({ post }: { post: any }) => {
           className="post-content"
           dangerouslySetInnerHTML={{ __html: fixedContent }}
         ></div>
-        <div className="post-comments">
+        <div className="post-comments-box">
           <CommentsSection postDbId={post.databaseId} />
         </div>
       </div>

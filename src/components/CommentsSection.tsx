@@ -4,8 +4,8 @@ import CommentList from "./CommentList";
 const CommentsSection = (props: any) => {
   const postDbId = props.postDbId;
   return (
-    <div>
-      <CommentList id={postDbId}/>
+    <div className="post-comments">
+      <CommentList id={postDbId} />
       <CommentForm id={postDbId} />
     </div>
   );

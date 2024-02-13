@@ -943,11 +943,25 @@ footer {
   }
 }
 
-.abovethefold-project {
-  margin-top: 75px;
+.project-section {
+  display: flex;
+  flex-direction: column;
   background-image: url("../projects-bg.png");
   background-position: center;
   background-size: cover;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  @media (max-width: 900px) {
+    background-image: none;
+  }
+}
+
+.abovethefold-project {
+  margin-top: 75px;
   padding: 50px 0px;
   display: flex;
   flex-direction: column;
@@ -955,14 +969,14 @@ footer {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 100%;
+  width: 80%;
+  text-align: center;
 
   @media (max-width: 900px) {
     height: auto;
     padding: 110px 0;
     padding-top: 30px;
     padding-bottom: 10px;
-    background-image: none;
   }
 }
 
@@ -1071,6 +1085,10 @@ ul li a.active {
   align-items: center;
   justify-content: center;
   max-width: 50%;
+  @media screen and (max-width: 900px) {
+    margin-top: 15px;
+    max-width: 100%;
+  }
 }
 
 .post-grid {
@@ -1078,6 +1096,11 @@ ul li a.active {
   margin-bottom: 12px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  @media screen and (max-width: 1100px) {
+    grid-template-columns: 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
 .article-box {
@@ -1176,10 +1199,16 @@ ul li a.active {
   }
 }
 
+.post-comments-box {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
 .post-comments {
-  width: 100%;
   margin-top: 40px;
   margin-bottom: 40px;
+  max-width: 80%;
 }
 
 .comment-form {
