@@ -413,10 +413,16 @@ nav ul a {
   }
 }
 
+.link{
+  text-decoration: none;
+}
+
 .sub-headline {
   font-weight: bold;
   font-family: "Rubik", sans-serif;
   font-size: 28px;
+  color: #000;
+  text-decoration: none;
   @media (max-width: 900px) {
     text-align: center;
   }
