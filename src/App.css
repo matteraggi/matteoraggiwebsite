@@ -413,7 +413,7 @@ nav ul a {
   }
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
@@ -1209,6 +1209,7 @@ ul li a.active {
   display: flex;
   align-items: center;
   justify-content: left;
+  width: 100%;
 }
 
 .post-comments {
