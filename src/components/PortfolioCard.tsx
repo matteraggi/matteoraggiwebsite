@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Code from "./Code";
 import Live from "./Live";
 
@@ -15,9 +14,7 @@ const PortfolioCard = (props: any) => {
         </a>
       </div>
       <div className="box-text">
-        <Link to={"/progetti/squealer"} className="link">
-          <h3 className="sub-headline">{props.heading}</h3>
-        </Link>
+        <h3 className="sub-headline">{props.heading}</h3>
         <p>{props.text}</p>
         <div className="links">
           {props.code && (

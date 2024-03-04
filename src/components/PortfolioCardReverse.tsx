@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Code from "./Code";
 import Live from "./Live";
 
@@ -6,9 +5,7 @@ const PortfolioCardReverse = (props: any) => {
   return (
     <div className="box box-1">
       <div className="box-text">
-        <Link to={"/progetti/hotelchc"} className="link">
-          <h3 className="sub-headline">{props.heading}</h3>
-        </Link>
+        <h3 className="sub-headline">{props.heading}</h3>
         <p>{props.text}</p>
         <div className="links">
           {props.code && (
