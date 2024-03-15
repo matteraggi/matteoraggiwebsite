@@ -17,7 +17,8 @@ const Abovethefold = () => {
             <div className="main-text">
               <h1 className="heading">Full-Stack Developer 🧑🏻‍💻</h1>
               <p className="mt-3">
-                Ciao, sono Matteo Raggi. Creo Applicazioni Web e mi diverto. <br /> Based in Bologna, Italia📍
+                Ciao, sono Matteo Raggi. Creo Applicazioni Web e mi diverto.{" "}
+                <br /> Based in Bologna, Italia📍
               </p>
               <span>
                 <Linkedin width="35px" height="35px" />
@@ -27,7 +28,7 @@ const Abovethefold = () => {
                 <Whatsapp />
               </span>
             </div>
-            <div className="hero-img"></div>
+            <div rel="preload" className="hero-img"></div>
           </div>
           <div className="skills">
             <p>Tech Stack</p>

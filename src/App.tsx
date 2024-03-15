@@ -18,7 +18,10 @@ const apollo = new ApolloClient({
   uri: API_URL,
   cache: new InMemoryCache(),
 });
-
+// for SEO:
+// head for every page (slug ones too)
+// sitemap
+// guide for next in other favorite (chrome)
 function App() {
   return (
     <>

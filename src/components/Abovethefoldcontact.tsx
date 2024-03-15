@@ -4,6 +4,7 @@ import Linkedin from "./Linkedin";
 import Mail from "./Mail";
 import TextField from "@mui/material/TextField";
 import emailjs from "@emailjs/browser";
+import DownloadFiles from "./DownloadFiles";
 
 const Abovethefoldcontact = () => {
   const [name, setName] = useState("");
@@ -65,6 +66,7 @@ const Abovethefoldcontact = () => {
               <Mail />
             </span>
           </div>
+          <div className="container-form">
           <form onSubmit={contactme}>
             <div className="box2 box2-1">
               <div className="label">
@@ -120,6 +122,8 @@ const Abovethefoldcontact = () => {
               </div>
             </div>
           </form>
+          <DownloadFiles />
+          </div>
           <span className="social-icon-mobile">
             <Linkedin width="50px" height="50px" />
             <Instagram width="50px" height="50px" />
