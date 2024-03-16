@@ -9,9 +9,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BlogPage from "./pages/BlogPage";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
-import ArticlePage from "./pages/ArticlePage";
 import Squealer from "./components/Squealer";
 import HotelChc from "./components/HotelChc";
+import ArticlePage from "./pages/ArticlePage";
 const API_URL = import.meta.env.VITE_NEXT_PUBLIC_WORDPRESS_API_ENDPOINT;
 
 const apollo = new ApolloClient({

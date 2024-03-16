@@ -1,4 +1,4 @@
-import ArticleBlock from "../components/ArticleBlock";
+import ArticleBlock from "../components/blog/ArticleBlock";
 
 const ArticlePage = () => {
   return (
