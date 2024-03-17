@@ -1,6 +1,6 @@
 import PortfolioCard from "./PortfolioCard";
 import PortfolioCardReverse from "./PortfolioCardReverse";
-
+ 
 const ProjectList = () => {
   return (
     <div className="projects-grid">
