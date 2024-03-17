@@ -41,13 +41,13 @@ const ArticleBlock = () => {
             <div className="post-title">
               <h1 className="post-header">{postInfo.title}</h1>
               <img
-                src={postInfo.image}
+                src={postInfo.image ?? "/public/fav-image.png"}
+                alt={postInfo.imageAlt ?? "image"}
                 style={{
                   width: "70%",
                   height: "auto",
                   marginBottom: "2rem",
                 }}
-                alt={postInfo.title}
               />
               <p style={{ fontStyle: "italic" }}>
                 {postInfo.date} - {post.author}
