@@ -1275,6 +1275,11 @@ ul li a.active {
   border-radius: 15px;
 }
 
+.post-image {
+  width: 70%;
+  height: 100%;
+}
+
 .post-background {
   position: relative;
   width: 100%;
