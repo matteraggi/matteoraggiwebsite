@@ -1152,7 +1152,6 @@ ul li a.active {
 
 .coding {
   background-image: url("../coding.png");
-  width: 325px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1160,7 +1159,6 @@ ul li a.active {
 
 .web3 {
   background-image: url("../web3.png");
-  width: 325px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1168,7 +1166,6 @@ ul li a.active {
 
 .blockchain {
   background-image: url("../blockchain-cat.png");
-  width: 325px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1176,7 +1173,6 @@ ul li a.active {
 
 .criptovalute {
   background-image: url("../criptovalute.png");
-  width: 325px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1184,7 +1180,6 @@ ul li a.active {
 
 .nft-metaverso {
   background-image: url("../nft-metaverso.png");
-  width: 325px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1192,7 +1187,6 @@ ul li a.active {
 
 .finanza-personale {
   background-image: url("../finanza-personale.png");
-  width: 325px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
