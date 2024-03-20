@@ -15,11 +15,6 @@ import CategoryPage from "./pages/CategoryPage";
 import { HelmetProvider } from "react-helmet-async";
 import { InfinitySpin } from "react-loader-spinner";
 
-// for SEO:
-// head for every page (slug ones too)
-// sitemap
-// guide for next in other favorite (chrome)
-
 function App() {
   const helmetContext = {};
 
