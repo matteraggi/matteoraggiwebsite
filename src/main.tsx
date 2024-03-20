@@ -6,8 +6,8 @@ import Wrapper from "./components/Wrapper.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
-    <Wrapper>
-      <App />
-    </Wrapper>
+      <Wrapper>
+        <App />
+      </Wrapper>
   </BrowserRouter>
 );

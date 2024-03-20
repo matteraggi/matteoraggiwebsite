@@ -12,6 +12,7 @@ import HotelChc from "./components/HotelChc";
 import ArticlePage from "./pages/ArticlePage";
 import BlogPage from "./pages/BlogPage";
 import CategoryPage from "./pages/CategoryPage";
+import { HelmetProvider } from "react-helmet-async";
 
 // for SEO:
 // head for every page (slug ones too)
@@ -19,23 +20,27 @@ import CategoryPage from "./pages/CategoryPage";
 // guide for next in other favorite (chrome)
 
 function App() {
+  const helmetContext = {};
+
   return (
     <>
-      <Navbar />
-      <Suspense fallback={<div className="container">Loading...</div>}>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/progetti" element={<ProjectPage />} />
-          <Route path="/progetti/squealer" element={<Squealer />} />
-          <Route path="/progetti/hotelchc" element={<HotelChc />} />
-          <Route path="/contatti" element={<ContactPage />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog/:slug" element={<ArticlePage />} />
-          <Route path="/category/:slug" element={<CategoryPage />} />
-        </Routes>
-      </Suspense>
-      <Footer />
+      <HelmetProvider context={helmetContext}>
+        <Navbar />
+        <Suspense fallback={<div className="container">Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/progetti" element={<ProjectPage />} />
+            <Route path="/progetti/squealer" element={<Squealer />} />
+            <Route path="/progetti/hotelchc" element={<HotelChc />} />
+            <Route path="/contatti" element={<ContactPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:slug" element={<ArticlePage />} />
+            <Route path="/category/:slug" element={<CategoryPage />} />
+          </Routes>
+        </Suspense>
+        <Footer />
+      </HelmetProvider>
     </>
   );
 }

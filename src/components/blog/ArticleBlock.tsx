@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import postsData from "./../../posts.json";
 import articlesData from "./../../articles.json";
+import SEO from "./SEO";
 
 const ArticleBlock = () => {
   const { slug } = useParams();
@@ -35,6 +36,12 @@ const ArticleBlock = () => {
           />
         </Link>
       </div>
+      <SEO
+        title={postInfo.title}
+        description={post.content.slice(0, 100)}
+        name="Matteo Raggi Blog"
+        type="article"
+      />
       <div className="blog-box">
         <div className="container-article">
           <div className="post-header-section">
