@@ -18,10 +18,10 @@ const Aboutpagebody = () => {
             </p>
           </div>
           <div className="div-image">
-            <img src="../freewifi.jpg" alt="" width="350px" className="" />
+            <img src="../freewifi.jpg" alt="image-stock" width="350px" className="" />
           </div>
           <div className="div-image">
-            <img src="../freewifi.jpg" alt="" width="350px" className="" />
+            <img src="../freewifi.jpg" alt="image-stock" width="350px" className="" />
           </div>
           <div>
             <p>
@@ -52,10 +52,10 @@ const Aboutpagebody = () => {
             </p>
           </div>
           <div className="div-image">
-            <img src="../freewifi.jpg" alt="" width="350px" className="" />
+            <img src="../freewifi.jpg" alt="image-stock" width="350px" className="" />
           </div>
           <div className="div-image">
-            <img src="../freewifi.jpg" alt="" width="350px" className="" />
+            <img src="../freewifi.jpg" alt="image-stock" width="350px" className="" />
           </div>
           <div>
             <p>

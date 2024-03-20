@@ -34,6 +34,7 @@ const CategorySection = () => {
         <div className="padding-top-">
           <Link to="/blog">
             <img
+              alt="arrow-back"
               src="/arrow.svg"
               style={{ width: "50px", height: "auto", marginLeft: "35px" }}
               loading="lazy"
@@ -50,6 +51,7 @@ const CategorySection = () => {
       <div className="padding-top-">
         <Link to="/blog">
           <img
+            alt="arrow-back"
             src="/arrow.svg"
             style={{ width: "50px", height: "auto", marginLeft: "35px" }}
             loading="lazy"

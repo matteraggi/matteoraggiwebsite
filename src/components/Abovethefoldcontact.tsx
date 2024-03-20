@@ -50,7 +50,7 @@ const Abovethefoldcontact = () => {
               Hai un progetto in mente? Vuoi digitalizzare la tua attività?{" "}
               <br /> Mandami un messaggio, possiamo realizzarlo insieme.
             </p>
-            <img src="../contact-photo.JPG" className="contact-photo" loading="lazy"/>
+            <img src="../contact-photo.JPG" className="contact-photo" loading="lazy" alt="matteo raggi contattami"/>
             <span className="social-icon">
               <Linkedin width="50px" height="50px" />
               <Instagram width="50px" height="50px" />

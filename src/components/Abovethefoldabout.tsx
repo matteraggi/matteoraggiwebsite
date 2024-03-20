@@ -19,7 +19,7 @@ const Abovethefoldabout = () => {
             Sviluppatore Web.
           </p>
         </div>
-        <img src="../matteoraggiphoto1.png" className="chisono-photo" loading="lazy"/>
+        <img src="../matteoraggiphoto1.png" className="chisono-photo" loading="lazy" alt="matteo raggi"/>
       </div>
     </section>
   );
