@@ -1,4 +1,11 @@
 {
-  "version": 2,
-  "routes": [{ "src": "/sitemap.xml", "dest": "./dist/sitemap.xml" }]
-}
+    "version": 2,
+    "builds": [{ "src": "build/*", "use": "@vercel/static" }],
+    "routes": [
+      { "src": "/sitemap.xml", "dest": "./dist/sitemap.xml" }
+    ],
+    "static": {
+      "include": ["sitemap.xml"]
+    }
+  }
+  
