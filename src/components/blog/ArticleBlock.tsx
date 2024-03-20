@@ -18,6 +18,7 @@ const ArticleBlock = () => {
             <img
               src="/arrow.svg"
               style={{ width: "50px", height: "auto", marginLeft: "35px" }}
+              loading="lazy"
             />
           </Link>
         </div>
@@ -33,6 +34,7 @@ const ArticleBlock = () => {
           <img
             src="/arrow.svg"
             style={{ width: "50px", height: "auto", marginLeft: "35px" }}
+            loading="lazy"
           />
         </Link>
       </div>
@@ -55,6 +57,7 @@ const ArticleBlock = () => {
                   height: "auto",
                   marginBottom: "2rem",
                 }}
+                loading="lazy"
               />
               <p style={{ fontStyle: "italic" }}>
                 {postInfo.date} - {post.author}

@@ -9,6 +9,7 @@ export const PostBlock = ({ post }: { post: any }) => {
             src={post.image ?? "/public/fav-image.png"}
             alt={post.imageAlt ?? "image"}
             className="article-image"
+            loading="lazy"
           />
         </div>
       </Link>

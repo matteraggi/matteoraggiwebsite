@@ -2,7 +2,6 @@
 import Abovethefoldabout from "../components/Abovethefoldabout";
 
 const AboutPage = () => {
-  console.log("AboutPage");
   return (
     <>
       <Abovethefoldabout />

@@ -28,6 +28,9 @@ const PortfolioCardReverse = (props: any) => {
             src={props.sourceimage}
             alt="website"
             className="scrolling"
+            loading="lazy"
+            width="100%"
+            height="auto"
           ></img>
         </a>
       </div>

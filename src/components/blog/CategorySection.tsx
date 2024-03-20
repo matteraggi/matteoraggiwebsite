@@ -36,6 +36,7 @@ const CategorySection = () => {
             <img
               src="/arrow.svg"
               style={{ width: "50px", height: "auto", marginLeft: "35px" }}
+              loading="lazy"
             />
           </Link>
         </div>
@@ -51,6 +52,7 @@ const CategorySection = () => {
           <img
             src="/arrow.svg"
             style={{ width: "50px", height: "auto", marginLeft: "35px" }}
+            loading="lazy"
           />
         </Link>
       </div>

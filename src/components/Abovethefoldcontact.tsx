@@ -25,7 +25,6 @@ const Abovethefoldcontact = () => {
       alert("Compila tutti i campi prima di inviare!");
       return;
     }
-    console.log(name, lastName, email, email, text);
 
     emailjs
       .send(
@@ -34,14 +33,6 @@ const Abovethefoldcontact = () => {
         template,
         "X8vOilcepKloZtdAE"
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
 
     setName("");
     setLastName("");
@@ -59,7 +50,7 @@ const Abovethefoldcontact = () => {
               Hai un progetto in mente? Vuoi digitalizzare la tua attività?{" "}
               <br /> Mandami un messaggio, possiamo realizzarlo insieme.
             </p>
-            <img src="../contact-photo.JPG" className="contact-photo" />
+            <img src="../contact-photo.JPG" className="contact-photo" loading="lazy"/>
             <span className="social-icon">
               <Linkedin width="50px" height="50px" />
               <Instagram width="50px" height="50px" />

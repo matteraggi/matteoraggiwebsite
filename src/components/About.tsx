@@ -8,7 +8,9 @@ const About = () => {
               src="../webdev.jpg"
               alt="stock image cs"
               width="450"
+              height="300"
               className="rounded-photo"
+              loading="lazy"
             ></img>
           </div>
           <div className="text-side">
