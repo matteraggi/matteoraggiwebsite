@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [{ "src": "/sitemap.xml", "dest": "./dist/sitemap.xml" }],
+  "static": {
+    "include": ["sitemap.xml"]
+  }
+}
