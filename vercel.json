@@ -1,4 +1,4 @@
 {
   "version": 2,
-  "routes": [{ "src": "/sitemap.xml", "dest": "./dist/sitemap.xml" }],
+  "routes": [{ "src": "/sitemap.xml", "dest": "./dist/sitemap.xml" }]
 }
