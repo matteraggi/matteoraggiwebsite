@@ -247,6 +247,25 @@ p {
 }
 
 .hero-img {
+  background-color: #fff;
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 3px solid;
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+
+  @media (max-width: 500px) {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+.hero-img.loaded {
   background-image: url("../matteoraggi.jpg");
   width: 350px;
   height: 350px;

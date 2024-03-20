@@ -7,8 +7,19 @@ import Figma from "./Figma";
 import Nextjs from "./Nextjs";
 import MongoDB from "./MongoDB";
 import Nodejs from "./Nodejs";
+import { useEffect, useState } from "react";
 
 const Abovethefold = () => {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => {
+      setLoaded(true);
+    };
+    img.src = "../matteoraggi.jpg"; // Imposta l'URL dell'immagine da caricare
+  }, []);
+
   return (
     <section className="grey1">
       <div className="contenitore">
@@ -28,7 +39,14 @@ const Abovethefold = () => {
                 <Whatsapp />
               </span>
             </div>
-            <div rel="preload" className="hero-img"></div>
+            <div
+              className={`hero-img ${loaded ? "loaded" : ""}`}
+              style={{
+                backgroundImage: loaded ? "url(../matteoraggi.jpg)" : "none",
+              }}
+            >
+              {/* Contenuto aggiuntivo, se necessario */}
+            </div>
           </div>
           <div className="skills">
             <p>Tech Stack</p>

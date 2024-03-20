@@ -13,6 +13,7 @@ import ArticlePage from "./pages/ArticlePage";
 import BlogPage from "./pages/BlogPage";
 import CategoryPage from "./pages/CategoryPage";
 import { HelmetProvider } from "react-helmet-async";
+import { InfinitySpin } from "react-loader-spinner";
 
 // for SEO:
 // head for every page (slug ones too)
@@ -25,8 +26,22 @@ function App() {
   return (
     <>
       <HelmetProvider context={helmetContext}>
-        <Navbar />
-        <Suspense fallback={<div className="container">Loading...</div>}>
+        <Suspense
+          fallback={
+            <div className="container">
+              <section className="grey1">
+                <div className="contenitore">
+                  <div className="contenuto">
+                    <div className="main">
+                      <InfinitySpin width="200" color="#1a5ba6" />
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          }
+        >
+          <Navbar />
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<AboutPage />} />
@@ -38,8 +53,8 @@ function App() {
             <Route path="/blog/:slug" element={<ArticlePage />} />
             <Route path="/category/:slug" element={<CategoryPage />} />
           </Routes>
+          <Footer />
         </Suspense>
-        <Footer />
       </HelmetProvider>
     </>
   );
