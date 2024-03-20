@@ -15,6 +15,18 @@ export function generateSitemap(articles) {
     sitemap += `<url><loc>${articleUrl}</loc><lastmod>${currentDate}</lastmod><priority>0.8</priority></url>\n`;
   });
 
+  const otherPages = [
+    { slug: "about", priority: 0.5 },
+    { slug: "contatti", priority: 0.5 },
+    { slug: "progetti", priority: 0.5 },
+    { slug: "blog", priority: 0.5 },
+  ];
+
+  otherPages.forEach((page) => {
+    const pageUrl = `${baseUrl}/${page.slug}`; // Costruisci l'URL della pagina
+    sitemap += `<url><loc>${pageUrl}</loc><lastmod>${currentDate}</lastmod><priority>${page.priority}</priority></url>\n`;
+  });
+
   sitemap += "</urlset>";
 
   return sitemap;
