@@ -1,4 +1,5 @@
 import Code from "./Code";
+import DownloadProject from "./DownloadProject";
 import Live from "./Live";
 
 const PortfolioCardReverse = (props: any) => {
@@ -19,6 +20,15 @@ const PortfolioCardReverse = (props: any) => {
               <p>Sito Live</p>
               <Live />
             </a>
+          )}
+          {props.download && (
+            <div>
+              <p>Download</p>
+              <DownloadProject
+                fileDir={props.downloadfile}
+                fileName={props.fileName}
+              />
+            </div>
           )}
         </div>
       </div>

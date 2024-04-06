@@ -674,7 +674,22 @@ img {
   align-items: center;
 }
 
+.links div {
+  color: rgb(45, 46, 50);
+  font-size: 18px;
+  font-weight: 500;
+  gap: 5px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
 .links a p {
+  margin-bottom: 0px;
+}
+
+.links div p {
   margin-bottom: 0px;
 }
 
@@ -683,6 +698,10 @@ span {
   display: flex;
   gap: 13px;
   margin: 25px 0px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .contact {

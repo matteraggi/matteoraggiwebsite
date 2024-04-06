@@ -1,10 +1,12 @@
-const DownloadFiles = () => {
+import Download from "./Download";
+
+const DownloadFiles = (props: any) => {
   const handleDownload = () => {
     // Logica per scaricare il file PDF
-    const pdfUrl = "/Curriculum.pdf";
+    const pdfUrl = props.fileDir;
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Portfolio Raggi Matteo.pdf";
+    link.download = props.fileName;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -12,7 +14,7 @@ const DownloadFiles = () => {
 
   return (
     <button onClick={handleDownload} className="portfolio-download">
-      Scarica il mio Portfolio
+      {props.fileDescription.length > 5 ? props.fileDescription : <Download />}
     </button>
   );
 };

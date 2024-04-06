@@ -113,7 +113,7 @@ const Abovethefoldcontact = () => {
               </div>
             </div>
           </form>
-          <DownloadFiles />
+          <DownloadFiles fileDir="/Curriculum.pdf" fileName="Portfolio Raggi Matteo.pdf" fileDescription="Scarica il mio Portfolio"/>
           </div>
           <span className="social-icon-mobile">
             <Linkedin width="50px" height="50px" />

@@ -1,4 +1,5 @@
 import Code from "./Code";
+import DownloadProject from "./DownloadProject";
 import Live from "./Live";
 
 const PortfolioCard = (props: any) => {
@@ -32,6 +33,15 @@ const PortfolioCard = (props: any) => {
               <p>Sito Live</p>
               <Live />
             </a>
+          )}
+          {props.download && (
+            <div>
+              <p>Download</p>
+              <DownloadProject
+                fileDir={props.downloadfile}
+                fileName={props.fileName}
+              />
+            </div>
           )}
         </div>
       </div>

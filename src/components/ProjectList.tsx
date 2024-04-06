@@ -1,6 +1,6 @@
 import PortfolioCard from "./PortfolioCard";
 import PortfolioCardReverse from "./PortfolioCardReverse";
- 
+
 const ProjectList = () => {
   return (
     <div className="projects-grid">
@@ -10,8 +10,11 @@ const ProjectList = () => {
         sourceimage="../squealer.jpeg"
         linkwebsite=""
         linkcode="https://github.com/matteraggi/avvoltoio-smm"
+        downloadfile=""
+        fileName=""
         code={true}
         website={false}
+        download={false}
       />
       <PortfolioCardReverse
         heading="Depliant Hotel CHC"
@@ -19,8 +22,11 @@ const ProjectList = () => {
         sourceimage="../chc-hotel.png"
         linkwebsite=""
         linkcode=""
+        downloadfile=""
+        fileName=""
         code={false}
         website={false}
+        download={false}
       />
       <PortfolioCard
         heading="StudyFarm App"
@@ -28,8 +34,11 @@ const ProjectList = () => {
         sourceimage="../studyfarm.jpg"
         linkwebsite=""
         linkcode="https://github.com/matteraggi/StudyApp-react-native"
+        downloadfile="../studyapp.apk"
+        fileName="StudyFarm App"
         code={true}
         website={false}
+        download={true}
       />
     </div>
   );
