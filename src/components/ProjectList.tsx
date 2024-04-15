@@ -40,6 +40,18 @@ const ProjectList = () => {
         website={false}
         download={true}
       />
+      <PortfolioCardReverse
+        heading="Kebabbo"
+        text="Una piattaforma web per aiutare studenti universitari a trovare un pasto buono, veloce ed economico. Per il momento disponibile solo per la città di Bologna."
+        sourceimage="../kebabbo.jpg"
+        linkwebsite="https://kebabbo.vercel.app"
+        linkcode="https://github.com/matteraggi/kebabbo"
+        downloadfile=""
+        fileName=""
+        code={true}
+        website={true}
+        download={false}
+      />
     </div>
   );
 };
