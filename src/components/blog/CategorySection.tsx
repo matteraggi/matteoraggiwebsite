@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import articlesData from "./../../articles.json";
 import { PostBlock } from "./PostBlock";
+import SEO from "./SEO";
 
 interface Article {
   title: string;
@@ -31,6 +32,13 @@ const CategorySection = () => {
   if (!post) {
     return (
       <>
+        <SEO
+          title={"Matte.dev - " + slug}
+          description={"Articoli della categoria " + slug}
+          name="Matteo Raggi Blog"
+          type="page"
+          slug={"/category" + slug}
+        />
         <div className="padding-top-">
           <Link to="/blog">
             <img

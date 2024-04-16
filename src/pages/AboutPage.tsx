@@ -11,6 +11,7 @@ const AboutPage = () => {
         Based in Bologna, Italia📍"
         name="Matteo Raggi Blog"
         type="page"
+        slug="/about"
       />
       <Abovethefoldabout />
       {/*<Aboutpagebody />*/}

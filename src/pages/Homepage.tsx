@@ -13,6 +13,7 @@ const Homepage = () => {
         Based in Bologna, Italia📍"
         name="Matteo Raggi Blog"
         type="page"
+        slug="/"
       />
       <Abovethefold />
       <About />
