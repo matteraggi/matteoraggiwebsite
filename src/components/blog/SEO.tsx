@@ -4,16 +4,19 @@ export default function SEO({
   description,
   name,
   type,
+  slug,
 }: {
   title: string;
   description: string;
   name: string;
   type: string;
+  slug: string;
 }) {
   return (
     <Helmet>
       {/* Standard metadata tags */}
       <title>{title}</title>
+      <link rel="canonical" href={`https://matteoraggiblog.com/blog/${slug}`} />
       <meta name="description" content={description} />
       {/* End standard metadata tags */}
       {/* Facebook tags */}

@@ -26,9 +26,13 @@
     "react-helmet-async": "^2.0.4",
     "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.16.0",
-    "react-social-icons": "^6.4.0"
+    "react-social-icons": "^6.4.0",
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
     "@types/node": "^20.11.16",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
@@ -40,6 +44,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
+    "react-router-sitemap-generator": "^0.0.8",
     "typescript": "^5.0.2",
     "vite": "^4.4.11"
   }

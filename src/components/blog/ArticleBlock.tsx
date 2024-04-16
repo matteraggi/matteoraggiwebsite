@@ -45,6 +45,7 @@ const ArticleBlock = () => {
         description={post.content.slice(0, 100)}
         name="Matteo Raggi Blog"
         type="article"
+        slug={post.slug}
       />
       <div className="blog-box">
         <div className="container-article">
