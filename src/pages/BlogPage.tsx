@@ -10,7 +10,7 @@ const BlogPage = () => {
         description="Tutti i post del Blog del mio sito."
         name="Matteo Raggi Blog"
         type="page"
-        slug="/blog"
+        slug="blog"
       />
       <Categories />
       <Blogpost />

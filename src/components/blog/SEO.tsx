@@ -16,7 +16,7 @@ export default function SEO({
     <Helmet>
       {/* Standard metadata tags */}
       <title>{title}</title>
-      <link rel="canonical" href={`https://matteoraggiblog.com/blog/${slug}`} />
+      <link rel="canonical" href={`https://matteoraggiblog.com/${slug}`} />
       <meta name="description" content={description} />
       {/* End standard metadata tags */}
       {/* Facebook tags */}

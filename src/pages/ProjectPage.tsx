@@ -10,7 +10,7 @@ const ProjectPage = () => {
         description="Ciao, sono Matteo Raggi. Qui puoi trovare tutti i miei migliori progetti."
         name="Matteo Raggi Blog"
         type="page"
-        slug="/progetti"
+        slug="progetti"
       />
       <AbovethefoldProject />
       <ProjectSection />

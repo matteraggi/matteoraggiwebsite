@@ -32,13 +32,6 @@ const CategorySection = () => {
   if (!post) {
     return (
       <>
-        <SEO
-          title={"Matte.dev - " + slug}
-          description={"Articoli della categoria " + slug}
-          name="Matteo Raggi Blog"
-          type="page"
-          slug={"/category" + slug}
-        />
         <div className="padding-top-">
           <Link to="/blog">
             <img
@@ -56,6 +49,13 @@ const CategorySection = () => {
 
   return (
     <>
+      <SEO
+        title={"Matte.dev - " + slug}
+        description={"Articoli della categoria " + slug}
+        name="Matteo Raggi Blog"
+        type="page"
+        slug={"category/" + slug}
+      />
       <div className="padding-top-">
         <Link to="/blog">
           <img
