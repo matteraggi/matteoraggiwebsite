@@ -42,7 +42,7 @@ const ArticleBlock = () => {
       </div>
       <SEO
         title={postInfo.title}
-        description={post.content.slice(0, 100)}
+        description={post.description}
         name="Matteo Raggi Blog"
         type="article"
         slug={"blog/" + post.slug}
