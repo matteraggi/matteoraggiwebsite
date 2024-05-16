@@ -18,7 +18,7 @@ const ProjectList = () => {
       />
       <PortfolioCardReverse
         heading="Depliant Hotel CHC"
-        text="Depliant di presentazione Hotel per un rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice."
+        text="Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice."
         sourceimage="../chc-hotel.png"
         linkwebsite=""
         linkcode=""
