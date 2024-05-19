@@ -909,7 +909,7 @@ footer {
 .abovethefoldabout {
   margin-top: 80px;
   background-color: rgb(249, 249, 249);
-  padding-top: 100px;
+  padding-top: 120px;
   display: flex;
   flex-direction: column;
   height: screen;
