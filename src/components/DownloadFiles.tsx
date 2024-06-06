@@ -13,9 +13,10 @@ const DownloadFiles = (props: any) => {
   };
 
   return (
-    <button onClick={handleDownload} className="portfolio-download">
-      {props.fileDescription.length > 5 ? props.fileDescription : <Download />}
-    </button>
+    <div onClick={handleDownload} className="portfolio-download">
+      {props.fileDescription.length > 5 ? props.fileDescription : null}
+      <Download />
+    </div>
   );
 };
 
