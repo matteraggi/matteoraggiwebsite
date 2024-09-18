@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Code from "./Code";
 import DownloadProject from "./DownloadProject";
 import Live from "./Live";
