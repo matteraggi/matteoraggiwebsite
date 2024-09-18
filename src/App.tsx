@@ -48,6 +48,7 @@ function App() {
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<ArticlePage />} />
             <Route path="/category/:slug" element={<CategoryPage />} />
+            <Route path="/policy/kebabbo" element={<KebabboPolicy />} />
           </Routes>
           <Footer />
         </Suspense>
