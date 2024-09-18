@@ -48,7 +48,6 @@ const ProjectList = () => {
         linkcode="https://github.com/matteraggi/kebabbo"
         downloadfile=""
         fileName=""
-        privacy={true}
         code={true}
         website={false}
         download={false}

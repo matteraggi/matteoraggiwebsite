@@ -1,7 +1,6 @@
 import Code from "./Code";
 import DownloadProject from "./DownloadProject";
 import Live from "./Live";
-import { Policy } from "@mui/icons-material";
 
 const PortfolioCardReverse = (props: any) => {
   return (
@@ -20,15 +19,6 @@ const PortfolioCardReverse = (props: any) => {
             <a target="_blank" href={props.linkwebsite} rel="noreferrer">
               <p>Sito Live</p>
               <Live />
-            </a>
-          )}
-          {props.privacy && (
-            <a
-              target="_blank"
-              href="https://www.matteoraggiblog.com/policy/kebabbo"
-            >
-              <p>Privacy Policy</p>
-              <Policy />
             </a>
           )}
           {props.download && (
