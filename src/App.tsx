@@ -14,6 +14,7 @@ import BlogPage from "./pages/BlogPage";
 import CategoryPage from "./pages/CategoryPage";
 import { HelmetProvider } from "react-helmet-async";
 import { InfinitySpin } from "react-loader-spinner";
+import KebabboPolicy from "./pages/KebabboPolicy";
 
 
 function App() {
