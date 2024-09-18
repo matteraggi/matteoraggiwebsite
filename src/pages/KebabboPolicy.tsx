@@ -1,5 +1,3 @@
-import SEO from "../components/blog/SEO";
-
 const KebabboPolicy = () => {
 const rawHtml =  `
 <style>
