@@ -15,6 +15,7 @@ import CategoryPage from "./pages/CategoryPage";
 import { HelmetProvider } from "react-helmet-async";
 import { InfinitySpin } from "react-loader-spinner";
 
+
 function App() {
   const helmetContext = {};
 

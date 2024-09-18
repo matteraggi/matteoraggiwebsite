@@ -44,12 +44,13 @@ const ProjectList = () => {
         heading="Kebabbo"
         text="Una piattaforma web per aiutare studenti universitari a trovare un pasto buono, veloce ed economico. Per il momento disponibile solo per la città di Bologna."
         sourceimage="../kebabbo.jpg"
-        linkwebsite="https://kebabbo.vercel.app"
+        linkwebsite=""
         linkcode="https://github.com/matteraggi/kebabbo"
         downloadfile=""
         fileName=""
+        privacy={true}
         code={true}
-        website={true}
+        website={false}
         download={false}
       />
     </div>
