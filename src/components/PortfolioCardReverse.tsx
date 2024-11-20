@@ -17,7 +17,7 @@ const PortfolioCardReverse = (props: any) => {
           )}
           {props.website && (
             <a target="_blank" href={props.linkwebsite} rel="noreferrer">
-              <p>Sito Live</p>
+              <p>Sito Web</p>
               <Live />
             </a>
           )}

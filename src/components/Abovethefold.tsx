@@ -7,6 +7,10 @@ import Figma from "./Figma";
 import Nextjs from "./Nextjs";
 import MongoDB from "./MongoDB";
 import Nodejs from "./Nodejs";
+import AWS from "./AWS";
+import Kotlin from "./Kotlin";
+import Supabase from "./Supabase";
+import Flutter from "./Flutter";
 
 const Abovethefold = () => {
   return (
@@ -34,22 +38,22 @@ const Abovethefold = () => {
             <p>Tech Stack</p>
             <ul>
               <li className="hover">
-                <Typescript />
-              </li>
-              <li className="hover">
                 <React />
               </li>
               <li className="hover">
                 <Nextjs />
               </li>
               <li className="hover">
-                <Figma />
+                <Flutter />
               </li>
               <li className="hover">
-                <MongoDB />
+                <Kotlin />
               </li>
               <li className="hover">
-                <Nodejs />
+                <AWS />
+              </li>
+              <li className="hover">
+                <Supabase />
               </li>
             </ul>
           </div>
