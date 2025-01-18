@@ -16,17 +16,13 @@ const About = () => {
           <div className="text-side">
             <h2 className="sezione">ABOUT ME</h2>
             <h3 className="sub-headline mt-3">
-              La passione per lo sviluppo Web 🎯
+              Il mio percorso professionale 🎯
             </h3>
             <p className="mt-3">
-              Sono un laureando in Informatica e da sempre mi piace l'idea di
-              creare qualcosa di mio.
-              <br /> Essere un libero professionista mi permette di esprimere la
-              mia creatività e di costruire qualcosa di unico.
+              Mi sono laureato in informatica nel 2024.
+              <br /> Per tutto il mio percorso universitario mi sono concentrato non solo sul passare gli esami, ma anche nel creare progetti personali che ritenevo interessanti.
               <br />
-              Poter realizzare ciò che prima era solo nella mia testa, o nella
-              testa di altre persone, è una sensazione unica. <br /> Da questo
-              nasce la mia passione per lo Sviluppo Web.
+              Adesso sto proseguendo i miei studi con una laurea magistrale, e nel mentre continuo ad imparare sperimentando tecnologie che non conosco. <br /> Qui sotto puoi trovare i miei migliori progetti.
             </p>
           </div>
         </div>

@@ -2,11 +2,7 @@ import Linkedin from "./Linkedin";
 import Instagram from "./Instagram";
 import Whatsapp from "./Github";
 import React from "./React";
-import Typescript from "./Typescript";
-import Figma from "./Figma";
 import Nextjs from "./Nextjs";
-import MongoDB from "./MongoDB";
-import Nodejs from "./Nodejs";
 import AWS from "./AWS";
 import Kotlin from "./Kotlin";
 import Supabase from "./Supabase";
@@ -21,8 +17,11 @@ const Abovethefold = () => {
             <div className="main-text">
               <h1 className="heading">Full-Stack Developer 🧑🏻‍💻</h1>
               <p className="mt-3">
-                Ciao, sono Matteo Raggi. Creo Applicazioni Web e mi diverto.{" "}
-                <br /> Based in Bologna, Italia📍
+                Ciao, sono Matteo Raggi. Sono laureato in Informatica e {" "}
+                <br />
+                faccio cose con il computer. 
+                <br />
+                Based in Bologna, Italia📍
               </p>
               <span>
                 <Linkedin width="35px" height="35px" />
