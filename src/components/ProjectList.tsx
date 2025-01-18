@@ -44,7 +44,7 @@ const ProjectList = () => {
         heading="KebabBo"
         text="Una piattaforma web per aiutare studenti universitari a trovare un pasto buono, veloce ed economico. Per il momento disponibile solo per la città di Bologna."
         sourceimage="../kebabbo.jpg"
-        linkwebsite="https://kebabbo-flutter.vercel.app/"
+        linkwebsite="https://kebabbo.top/"
         linkcode=""
         downloadfile=""
         fileName=""
