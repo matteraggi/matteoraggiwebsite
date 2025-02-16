@@ -12,9 +12,8 @@ const Abovethefoldabout = () => {
             attratto da lavori creativi. <br />
             Lavori che mi lasciassero la possibilità di creare qualcosa di
             nuovo. <br /> <br />
-            Nel 2021 mi sono iniziato ad interessare al mondo del freelancing e
-            ho deciso di aprire il mio primo Blog. <br /> <br />
-            Dopo quasi 3 anni di studio, tanti progetti personali e non, ho
+            Nel 2021 ho deciso di aprire il mio primo Blog. <br /> <br />
+            Dopo 3 anni di studio, un laurea triennale, tanti progetti personali e non, ho
             deciso di iniziare la mia attività da libero professionista come
             Sviluppatore Web.
           </p>

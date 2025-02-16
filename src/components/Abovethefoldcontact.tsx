@@ -26,13 +26,12 @@ const Abovethefoldcontact = () => {
       return;
     }
 
-    emailjs
-      .send(
-        "service_rd3ok48",
-        "template_5xg2wrn",
-        template,
-        "X8vOilcepKloZtdAE"
-      )
+    emailjs.send(
+      "service_rd3ok48",
+      "template_5xg2wrn",
+      template,
+      "X8vOilcepKloZtdAE"
+    );
 
     setName("");
     setLastName("");
@@ -46,11 +45,13 @@ const Abovethefoldcontact = () => {
         <div className="contact-body">
           <div>
             <h1 className="heading">Vuoi lavorare con me? ✈️</h1>
-            <p>
-              Hai un progetto in mente? Vuoi digitalizzare la tua attività?{" "}
-              <br /> Mandami un messaggio, possiamo realizzarlo insieme.
-            </p>
-            <img src="../contact-photo.JPG" className="contact-photo" loading="lazy" alt="matteo raggi contattami"/>
+            <p>Mandami un messaggio 📲.</p>
+            <img
+              src="../contact-photo.JPG"
+              className="contact-photo"
+              loading="lazy"
+              alt="matteo raggi contattami"
+            />
             <span className="social-icon">
               <Linkedin width="50px" height="50px" />
               <Instagram width="50px" height="50px" />
@@ -58,62 +59,65 @@ const Abovethefoldcontact = () => {
             </span>
           </div>
           <div className="container-form">
-          <form onSubmit={contactme}>
-            <div className="box2 box2-1">
-              <div className="label">
-                <h2 className="sub-headline labelform">
-                  Mandami un messaggio 📲
-                </h2>
-                <div className="labelform space">
-                  <TextField
-                    fullWidth
-                    id="standard-basic"
-                    label="Nome"
-                    variant="outlined"
-                    onChange={(e) => setName(e.target.value)}
-                    value={name}
-                  />
-                  <div className="x-margin"></div>
-                  <TextField
-                    fullWidth
-                    id="standard-basic"
-                    label="Cognome"
-                    variant="outlined"
-                    onChange={(e) => setLastName(e.target.value)}
-                    value={lastName}
-                  />
+            <form onSubmit={contactme}>
+              <div className="box2 box2-1">
+                <div className="label">
+                  <div className="labelform space">
+                    <TextField
+                      fullWidth
+                      id="standard-basic"
+                      label="Nome"
+                      variant="outlined"
+                      onChange={(e) => setName(e.target.value)}
+                      value={name}
+                    />
+                    <div className="x-margin"></div>
+                    <TextField
+                      fullWidth
+                      id="standard-basic"
+                      label="Cognome"
+                      variant="outlined"
+                      onChange={(e) => setLastName(e.target.value)}
+                      value={lastName}
+                    />
+                  </div>
+                  <div className="labelform">
+                    <TextField
+                      fullWidth
+                      type="email"
+                      id="standard-basic"
+                      label="Email"
+                      variant="outlined"
+                      onChange={(e) => setEmail(e.target.value)}
+                      value={email}
+                    />
+                  </div>
+                  <div className="labelform">
+                    <TextField
+                      fullWidth
+                      id="standard-multiline-static"
+                      label="Parlami del tuo progetto"
+                      multiline
+                      rows={6}
+                      defaultValue=""
+                      variant="outlined"
+                      onChange={(e) => setText(e.target.value)}
+                      value={text}
+                    />
+                  </div>
                 </div>
-                <div className="labelform">
-                  <TextField
-                    fullWidth
-                    type="email"
-                    id="standard-basic"
-                    label="Email"
-                    variant="outlined"
-                    onChange={(e) => setEmail(e.target.value)}
-                    value={email}
-                  />
-                </div>
-                <div className="labelform">
-                  <TextField
-                    fullWidth
-                    id="standard-multiline-static"
-                    label="Parlami del tuo progetto"
-                    multiline
-                    rows={6}
-                    defaultValue=""
-                    variant="outlined"
-                    onChange={(e) => setText(e.target.value)}
-                    value={text}
-                  />
+                <div>
+                  <input type="submit" value="Invia" className="formbutton" />
                 </div>
               </div>
-              <div>
-                <input type="submit" value="Invia" className="formbutton" />
-              </div>
+            </form>
+            <div className="social-icon-mobile">
+            <DownloadFiles
+              fileDir="/Curriculum.pdf"
+              fileName="Portfolio Raggi Matteo.pdf"
+              fileDescription="Scarica il mio Portfolio"
+            />
             </div>
-          </form>
-          <DownloadFiles fileDir="/Curriculum.pdf" fileName="Portfolio Raggi Matteo.pdf" fileDescription="Scarica il mio Portfolio"/>
           </div>
           <span className="social-icon-mobile">
             <Linkedin width="50px" height="50px" />
