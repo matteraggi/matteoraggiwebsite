@@ -64,7 +64,7 @@ const ProjectList = () => {
         website={false}
         download={false}
       />
-            <PortfolioCard
+            <PortfolioCardReverse
         heading="MissionBee"
         text="Applicazione iOS in Swift sviluppata per partecipare alla Swift Student Challenge. È un gioco per bambini che insegna a rispettare l'ambiente e il ruolo delle api in esso."
         sourceimage="../missionbee.png"
