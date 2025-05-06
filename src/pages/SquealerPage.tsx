@@ -29,7 +29,7 @@ const SquealerPage = () => {
                         code={true}
                         website={false}
                         download={false} />
-                    <ImageCarousel images={imageUrls} />
+                    {/*<ImageCarousel images={imageUrls} />*/}
 
                 </div>
             </div>

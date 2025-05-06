@@ -13,18 +13,18 @@ const ImageCarousel = ({ images }: { images: string[] }) => {
     };
 
     return (
-        <div className="relative w-full max-w-6xl mx-auto overflow-visible">
+        <div className="relative w-full mx-auto overflow-visible">
             {/* Carousel wrapper */}
             <div
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{
-                    transform: `translateX(calc(-${currentIndex * 85}% + ${currentIndex * 8}px))`,
+                    transform: `translateX(calc(-${currentIndex * 90}% + ${currentIndex * 8}px))`,
                 }}
             >
                 {images.map((src, i) => (
                     <div
                         key={i}
-                        className={`min-w-[85%] transition-all duration-300 ${i === currentIndex ? 'opacity-100 scale-100 z-10' : 'opacity-40 scale-95 z-0'
+                        className={`min-w-[90%] transition-all duration-300 ${i === currentIndex ? 'opacity-100 scale-100 z-10' : 'opacity-40 scale-95 z-0'
                             }`}
                         style={{
                             transform: `translateX(${(i - currentIndex) * 15}%)`,
@@ -33,7 +33,7 @@ const ImageCarousel = ({ images }: { images: string[] }) => {
                     >
                         <img
                             src={src}
-                            className="rounded-xl w-full h-[500px] object-cover shadow-md"
+                            className="rounded-xl w-full h-auto object-cover shadow-md"
                             alt={`img-${i}`}
                         />
                     </div>
