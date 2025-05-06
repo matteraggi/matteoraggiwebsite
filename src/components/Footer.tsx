@@ -1,6 +1,6 @@
-import GithubWhite from "./GithubWhite";
-import InstagramWhite from "./InstagramWhite";
-import LinkedinWhite from "./LinkedinWhite";
+import GithubWhite from "./icons/GithubWhite";
+import InstagramWhite from "./icons/InstagramWhite";
+import LinkedinWhite from "./icons/LinkedinWhite";
 
 const Footer = () => {
   return (

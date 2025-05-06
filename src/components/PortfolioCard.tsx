@@ -1,12 +1,24 @@
-import Code from "./Code";
+import { NavLink } from "react-router-dom";
+import Code from "./icons/Code";
 import DownloadProject from "./DownloadProject";
-import Live from "./Live";
+import Live from "./icons/Live";
 
 const PortfolioCard = (props: any) => {
   return (
     <div className="box box-1 reverse">
       <div className="box-img">
-        <a target="_blank" href={props.linkwebsite} rel="noreferrer">
+        {props.website ? (
+          <a target="_blank" href={props.linkwebsite} rel="noreferrer">
+            <img
+              src={props.sourceimage}
+              alt="website"
+              className="scrolling"
+              loading="lazy"
+              width="100%"
+              height="auto"
+            />
+          </a>
+        ) : (
           <img
             src={props.sourceimage}
             alt="website"
@@ -14,11 +26,14 @@ const PortfolioCard = (props: any) => {
             loading="lazy"
             width="100%"
             height="auto"
-          ></img>
-        </a>
+          />
+        )}
+
       </div>
       <div className="box-text">
-        <h3 className="sub-headline">{props.heading}</h3>
+        <NavLink to={props.route} className="no-subline">
+          <h3 className="sub-headline">{props.heading}</h3>
+        </NavLink>
         <p>{props.text}</p>
         <div className="links">
           {props.code && (
@@ -36,7 +51,7 @@ const PortfolioCard = (props: any) => {
           )}
           {props.download && (
             <div>
-              <p>Download</p>
+              <p>APK</p>
               <DownloadProject
                 fileDir={props.downloadfile}
                 fileName={props.fileName}

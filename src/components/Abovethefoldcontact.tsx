@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Instagram from "./Instagram";
-import Linkedin from "./Linkedin";
-import Mail from "./Mail";
+import Instagram from "./icons/Instagram";
+import Linkedin from "./icons/Linkedin";
+import Mail from "./icons/Mail";
 import TextField from "@mui/material/TextField";
 import emailjs from "@emailjs/browser";
 import DownloadFiles from "./DownloadFiles";
@@ -111,13 +111,6 @@ const Abovethefoldcontact = () => {
                 </div>
               </div>
             </form>
-            <div className="social-icon-mobile">
-            <DownloadFiles
-              fileDir="/Curriculum.pdf"
-              fileName="Portfolio Raggi Matteo.pdf"
-              fileDescription="Scarica il mio Portfolio"
-            />
-            </div>
           </div>
           <span className="social-icon-mobile">
             <Linkedin width="50px" height="50px" />

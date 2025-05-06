@@ -1,12 +1,12 @@
-import Linkedin from "./Linkedin";
-import Instagram from "./Instagram";
-import Whatsapp from "./Github";
-import React from "./React";
-import Nextjs from "./Nextjs";
-import AWS from "./AWS";
-import Kotlin from "./Kotlin";
-import Supabase from "./Supabase";
-import Flutter from "./Flutter";
+import Linkedin from "./icons/Linkedin";
+import Instagram from "./icons/Instagram";
+import Whatsapp from "./icons/Github";
+import React from "./icons/React";
+import Nextjs from "./icons/Nextjs";
+import AWS from "./icons/AWS";
+import Kotlin from "./icons/Kotlin";
+import Supabase from "./icons/Supabase";
+import Flutter from "./icons/Flutter";
 
 const Abovethefold = () => {
   return (
@@ -19,7 +19,7 @@ const Abovethefold = () => {
               <p className="mt-3">
                 Ciao, sono Matteo Raggi. Sono laureato in Informatica e {" "}
                 <br />
-                faccio cose con il computer. 
+                faccio cose con il computer.
                 <br />
                 Based in Bologna, Italia📍
               </p>

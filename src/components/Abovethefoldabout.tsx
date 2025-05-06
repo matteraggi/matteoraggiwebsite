@@ -5,7 +5,7 @@ const Abovethefoldabout = () => {
         <div className="heading-about">
           <h1 className="heading">Non sai chi sono?</h1>
           <div className="relative">
-            <h2 className="heading-2 inline">Adesso mi presento! 🙋🏻‍♂️</h2>
+            <h2 className="heading-2 inline">Mi presento! 🙋🏻‍♂️</h2>
           </div>
           <p className="body-contact">
             Mi chiamo Matteo Raggi. Da sempre sono appassionato di Informatica e

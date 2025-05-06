@@ -1,4 +1,4 @@
-import Download from "./Download";
+import Download from "./icons/Download";
 
 const DownloadFiles = (props: any) => {
   const handleDownload = () => {

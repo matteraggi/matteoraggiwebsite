@@ -6,7 +6,8 @@ const ProjectList = () => {
     <div className="projects-grid">
       <PortfolioCard
         heading="Squealer"
-        text="Un social network innovativo. Un social network delle persone, che premia chi crea contenuto valido, non chi ha followers. Quella mostrata qui sotto è la piattaforma per Social Media Manager."
+        route="/squealer"
+        text="Un social network innovativo. Un social network delle persone, che premia chi crea contenuto valido, non chi ha followers. Quella mostrata qui è la piattaforma per Social Media Manager."
         sourceimage="../squealer.jpeg"
         linkwebsite=""
         linkcode="https://github.com/matteraggi/avvoltoio-smm"
@@ -18,6 +19,7 @@ const ProjectList = () => {
       />
       <PortfolioCardReverse
         heading="Depliant Hotel CHC"
+        route="/depliant-hotel-chc"
         text="Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice."
         sourceimage="../chc-hotel.png"
         linkwebsite=""
@@ -30,6 +32,7 @@ const ProjectList = () => {
       />
       <PortfolioCard
         heading="StudyFarm App"
+        route="/studyfarm"
         text="Applicazione Android e iOS per la gestione delle ore di studio. Timer con ricompense monetarie spendibili nello Shop per incentivare lo studio attraverso la gamification."
         sourceimage="../studyfarm.jpg"
         linkwebsite=""
@@ -42,6 +45,7 @@ const ProjectList = () => {
       />
       <PortfolioCardReverse
         heading="KebabBo"
+        route="/kebabbo"
         text="Una piattaforma web per aiutare studenti universitari a trovare un pasto buono, veloce ed economico. Per il momento disponibile solo per la città di Bologna."
         sourceimage="../kebabbo.jpg"
         linkwebsite="https://kebabbo.top/"
@@ -54,6 +58,7 @@ const ProjectList = () => {
       />
       <PortfolioCard
         heading="HomeGuard"
+        route="/homeguard"
         text="Applicazione Android per il controllo della sicurezza domestica. Viene associata con dispositivi ESP32 (allarme, sensore per la porta, fotocamera, sensore NFC) i quali potranno essere controllati e monitorati da essa."
         sourceimage="../homeguard.jpg"
         linkwebsite=""
@@ -64,8 +69,9 @@ const ProjectList = () => {
         website={false}
         download={false}
       />
-            <PortfolioCardReverse
+      <PortfolioCardReverse
         heading="MissionBee"
+        route="/missionbee"
         text="Applicazione iOS in Swift sviluppata per partecipare alla Swift Student Challenge. È un gioco per bambini che insegna a rispettare l'ambiente e il ruolo delle api in esso."
         sourceimage="../missionbee.png"
         linkwebsite=""
