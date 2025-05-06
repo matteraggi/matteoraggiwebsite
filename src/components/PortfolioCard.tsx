@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import Code from "./icons/Code";
 import DownloadProject from "./DownloadProject";
 import Live from "./icons/Live";
+import Github from "./icons/Github";
 
 const PortfolioCard = (props: any) => {
   return (
@@ -39,7 +39,7 @@ const PortfolioCard = (props: any) => {
           {props.code && (
             <a target="_blank" href={props.linkcode} rel="noreferrer">
               <p>Code</p>
-              <Code />
+              <Github />
             </a>
           )}
 

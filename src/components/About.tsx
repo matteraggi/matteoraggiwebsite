@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section className="about">
-      <div className="contenitore">
+      <div className="max-w-[1085px] mx-auto py-[20px]">
         <div className="about-content">
           <div className="image-side">
             <img

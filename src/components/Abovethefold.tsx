@@ -11,7 +11,7 @@ import Flutter from "./icons/Flutter";
 const Abovethefold = () => {
   return (
     <section className="grey1">
-      <div className="contenitore">
+      <div className="max-w-[1085px] mx-auto py-[20px]">
         <div className="contenuto">
           <div className="main">
             <div className="main-text">

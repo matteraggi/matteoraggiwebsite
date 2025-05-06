@@ -5,7 +5,7 @@ import LinkedinWhite from "./icons/LinkedinWhite";
 const Footer = () => {
   return (
     <footer>
-      <div className="contenitore">
+      <div className="max-w-[1085px] mx-auto py-[20px]">
         <div className="footerclass">
           <h3 className="footerh3">
             Copyright © 2023. All rights are reserved
