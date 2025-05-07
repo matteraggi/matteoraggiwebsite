@@ -1,8 +1,8 @@
-const Nodejs = () => {
+const Nodejs = (props: any) => {
   return (
     <svg
-      width="65"
-      height="65"
+      width={props.width || "65"}
+      height={props.height || "65"}
       viewBox="0 0 256 289"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

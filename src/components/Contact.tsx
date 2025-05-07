@@ -3,7 +3,7 @@ import ContactItems from "./ContactItems";
 const Contact = () => {
   return (
     <section className="contact">
-      <div className="max-w-[1085px] mx-auto py-[20px]">
+      <div className="max-w-[1085px] mx-auto px-10">
         <h2 className="sezione">CONTACT</h2>
         <h3 className="sub-headline mt-3">Ti posso aiutare? Contattami! 📬</h3>
         <div className="contact-icons">

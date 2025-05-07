@@ -1,6 +1,7 @@
 import AbovethefoldSingleProject from "../components/AbovethefoldSingleProject";
 import SEO from "../components/blog/SEO";
 import ImageCarousel from "../components/ImageCarousel";
+import TechStack from "../components/TechStack";
 
 const SquealerPage = () => {
     const imageUrls = [
@@ -18,19 +19,22 @@ const SquealerPage = () => {
                 type="page"
                 slug="squealer"
             />
-            <div className="overflow-x-hidden">
-                <div className="max-w-[1085px] mx-auto py-[20px]">
-                    <AbovethefoldSingleProject
-                        title="Squealer"
-                        linkwebsite=""
-                        linkcode="https://github.com/matteraggi/avvoltoio-smm"
-                        downloadfile=""
-                        fileName=""
-                        code={true}
-                        website={false}
-                        download={false} />
-                    {/*<ImageCarousel images={imageUrls} />*/}
-
+            <div className="max-w-[1085px] mx-auto px-10">
+                <AbovethefoldSingleProject
+                    title="Squealer"
+                    linkwebsite=""
+                    linkcode="https://github.com/matteraggi/avvoltoio-smm"
+                    downloadfile=""
+                    fileName=""
+                    code={true}
+                    website={false}
+                    download={false} />
+                <ImageCarousel images={imageUrls} />
+                <div className="flex flex-col sm:flex-row w-full mb-10">
+                    <TechStack />
+                    <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
+                        <p>Elemento 2</p>
+                    </div>
                 </div>
             </div>
         </>

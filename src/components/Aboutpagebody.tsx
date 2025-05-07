@@ -1,7 +1,7 @@
 const Aboutpagebody = () => {
   return (
     <section className="aboutpagebody">
-      <div className="max-w-[1085px] mx-auto py-[20px]">
+      <div className="max-w-[1085px] mx-auto px-10">
         <div className="aboutbody-content">
           <div>
             <p>

@@ -32,7 +32,7 @@ function App() {
           fallback={
             <div className="container">
               <section className="grey1">
-                <div className="max-w-[1085px] mx-auto py-[20px]">
+                <div className="0 mx-auto px-10">
                   <div className="contenuto">
                     <div className="main">
                       <InfinitySpin width="200" color="#1a5ba6" />
