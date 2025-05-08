@@ -1,8 +1,8 @@
-const Kotlin = () => {
+const Kotlin = (props: any) => {
   return (
     <svg
-      width="65px"
-      height="65px"
+      width={props.width || "65px"}
+      height={props.height || "65px"}
       viewBox="0 0 32 32"
       xmlns="http://www.w3.org/2000/svg"
     >

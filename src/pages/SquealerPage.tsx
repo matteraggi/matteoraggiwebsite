@@ -10,6 +10,12 @@ const SquealerPage = () => {
         'https://picsum.photos/id/1024/800/400',
         'https://picsum.photos/id/1025/800/400',
     ];
+
+    const tech = [
+        "Nextjs",
+        "Nodejs",
+        "MongoDB"
+    ]
     return (
         <>
             <SEO
@@ -30,10 +36,12 @@ const SquealerPage = () => {
                     website={false}
                     download={false} />
                 <ImageCarousel images={imageUrls} />
-                <div className="flex flex-col sm:flex-row w-full mb-10">
-                    <TechStack />
+                <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
+                    <TechStack techstack={tech} />
                     <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Elemento 2</p>
+                        <p>Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
+                            Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
+                            2 Elemento 2 Elemento 2 </p>
                     </div>
                 </div>
             </div>

@@ -49,6 +49,7 @@
     "react-router-sitemap-generator": "^0.0.8",
     "tailwindcss": "^4.1.5",
     "typescript": "^5.0.2",
-    "vite": "^5.4.19"
+    "vite": "^5.4.19",
+    "vite-plugin-svgr": "^4.3.0"
   }
 }

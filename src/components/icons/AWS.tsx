@@ -1,8 +1,8 @@
-const AWS = () => {
+const AWS = (props: any) => {
   return (
     <svg
-      width="65px"
-      height="65px"
+      width={props.width || "65px"}
+      height={props.height || "65px"}
       viewBox="0 -30 150 150"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

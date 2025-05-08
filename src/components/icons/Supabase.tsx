@@ -1,8 +1,8 @@
-const Supabase = () => {
+const Supabase = (props: any) => {
   return (
     <svg
-      width="65"
-      height="65"
+      width={props.width || "65"}
+      height={props.height || "65"}
       viewBox="0 0 109 113"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
