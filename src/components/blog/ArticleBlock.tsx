@@ -56,7 +56,7 @@ const ArticleBlock = () => {
                 src={postInfo.image ?? "/public/fav-image.png"}
                 alt={postInfo.imageAlt ?? "image"}
                 style={{
-                  width: "90%",
+                  width: "100%",
                   height: "auto",
                   marginBottom: "2rem",
                 }}

@@ -5,10 +5,12 @@ import TechStack from "../components/TechStack";
 
 const HotelChcPage = () => {
     const imageUrls = [
-        'https://picsum.photos/id/1018/800/400',
-        'https://picsum.photos/id/1023/800/400',
-        'https://picsum.photos/id/1024/800/400',
-        'https://picsum.photos/id/1025/800/400',
+        '../hotelchc/screen-hotelchc-1.png',
+        '../hotelchc/screen-hotelchc-2.png',
+        '../hotelchc/screen-hotelchc-3.png',
+        '../hotelchc/screen-hotelchc-4.png',
+        '../hotelchc/screen-hotelchc-5.png',
+        '../hotelchc/screen-hotelchc-6.png',
     ];
 
     const tech = [
@@ -27,22 +29,20 @@ const HotelChcPage = () => {
                 slug="depliant-hotel-chc"
             />
             <div className="max-w-[1085px] mx-auto px-10">
-                <AbovethefoldSingleProject
-                    title="Depliant Hotel CHC"
-                    linkwebsite=""
-                    linkcode="https://github.com/matteraggi/avvoltoio-smm"
-                    downloadfile=""
-                    fileName=""
-                    code={true}
-                    website={false}
-                    download={false} />
-                <ImageCarousel images={imageUrls} />
+                <AbovethefoldSingleProject title="Depliant Hotel CHC" />
+                <ImageCarousel images={imageUrls} mobile={false} />
                 <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
-                    <TechStack techstack={tech}/>
+                    <TechStack techstack={tech}
+                        linkwebsite=""
+                        linkcode=""
+                        downloadfile=""
+                        fileName=""
+                        code={false}
+                        website={false}
+                        download={false}
+                    />
                     <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            2 Elemento 2 Elemento 2 </p>
+                        <p>Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice.</p>
                     </div>
                 </div>
             </div>

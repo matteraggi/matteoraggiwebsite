@@ -5,10 +5,10 @@ import TechStack from "../components/TechStack";
 
 const KebabboPage = () => {
     const imageUrls = [
-        'https://picsum.photos/id/1018/800/400',
-        'https://picsum.photos/id/1023/800/400',
-        'https://picsum.photos/id/1024/800/400',
-        'https://picsum.photos/id/1025/800/400',
+        '../kebabbo/screen-kebabbo-1.jpg',
+        '../kebabbo/screen-kebabbo-2.jpg',
+        '../kebabbo/screen-kebabbo-3.jpg',
+        '../kebabbo/screen-kebabbo-4.jpg',
     ];
 
     const tech = [
@@ -26,22 +26,20 @@ const KebabboPage = () => {
                 slug="kebabbo"
             />
             <div className="max-w-[1085px] mx-auto px-10">
-                <AbovethefoldSingleProject
-                    title="Kebabbo"
-                    linkwebsite=""
-                    linkcode="https://github.com/matteraggi/avvoltoio-smm"
-                    downloadfile=""
-                    fileName=""
-                    code={true}
-                    website={false}
-                    download={false} />
-                <ImageCarousel images={imageUrls} />
+                <AbovethefoldSingleProject title="Kebabbo" />
+                <ImageCarousel images={imageUrls} mobile={true} />
                 <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
-                    <TechStack techstack={tech} />
+                    <TechStack techstack={tech}
+                        linkwebsite="http://kebabbo.top"
+                        linkcode=""
+                        downloadfile=""
+                        fileName=""
+                        code={false}
+                        website={true}
+                        download={false}
+                    />
                     <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            2 Elemento 2 Elemento 2 </p>
+                        <p>Una piattaforma web per aiutare studenti universitari a trovare un pasto buono, veloce ed economico. Per il momento disponibile solo per la città di Bologna.</p>
                     </div>
                 </div>
             </div>

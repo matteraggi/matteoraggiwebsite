@@ -5,10 +5,11 @@ import TechStack from "../components/TechStack";
 
 const MissionbeePage = () => {
     const imageUrls = [
-        'https://picsum.photos/id/1018/800/400',
-        'https://picsum.photos/id/1023/800/400',
-        'https://picsum.photos/id/1024/800/400',
-        'https://picsum.photos/id/1025/800/400',
+        '../missionbee/screen-missionbee-1.png',
+        '../missionbee/screen-missionbee-2.png',
+        '../missionbee/screen-missionbee-3.png',
+        '../missionbee/screen-missionbee-4.png',
+        '../missionbee/screen-missionbee-5.png',
     ];
 
     const tech = [
@@ -25,22 +26,20 @@ const MissionbeePage = () => {
                 slug="missionbee"
             />
             <div className="max-w-[1085px] mx-auto px-10">
-                <AbovethefoldSingleProject
-                    title="MissionBee"
-                    linkwebsite=""
-                    linkcode="https://github.com/matteraggi/avvoltoio-smm"
-                    downloadfile=""
-                    fileName=""
-                    code={true}
-                    website={false}
-                    download={false} />
-                <ImageCarousel images={imageUrls} />
+                <AbovethefoldSingleProject title="MissionBee" />
+                <ImageCarousel images={imageUrls} mobile={true} />
                 <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
-                    <TechStack techstack={tech} />
+                    <TechStack techstack={tech}
+                        linkwebsite=""
+                        linkcode=""
+                        downloadfile=""
+                        fileName=""
+                        code={false}
+                        website={false}
+                        download={false}
+                    />
                     <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            2 Elemento 2 Elemento 2 </p>
+                        <p>Applicazione iOS in Swift sviluppata per partecipare alla Swift Student Challenge. È un gioco per bambini che insegna a rispettare l'ambiente e il ruolo delle api in esso.</p>
                     </div>
                 </div>
             </div>

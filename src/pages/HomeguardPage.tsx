@@ -6,10 +6,13 @@ import TechStack from "../components/TechStack";
 const HomeguardPage = () => {
 
     const imageUrls = [
-        'https://picsum.photos/id/1018/800/400',
-        'https://picsum.photos/id/1023/800/400',
-        'https://picsum.photos/id/1024/800/400',
-        'https://picsum.photos/id/1025/800/400',
+        '../homeguard/screen-homeguard-1.png',
+        '../homeguard/screen-homeguard-2.png',
+        '../homeguard/screen-homeguard-3.png',
+        '../homeguard/screen-homeguard-4.png',
+        '../homeguard/screen-homeguard-5.png',
+        '../homeguard/screen-homeguard-6.png',
+        '../homeguard/screen-homeguard-7.png',
     ];
 
     const tech = [
@@ -29,22 +32,20 @@ const HomeguardPage = () => {
                 slug="homeguard"
             />
             <div className="max-w-[1085px] mx-auto px-10">
-                <AbovethefoldSingleProject
-                    title="Homeguard - Home Security"
-                    linkwebsite=""
-                    linkcode="https://github.com/matteraggi/avvoltoio-smm"
-                    downloadfile=""
-                    fileName=""
-                    code={true}
-                    website={false}
-                    download={false} />
-                <ImageCarousel images={imageUrls} />
+                <AbovethefoldSingleProject title="Homeguard - Home Security" />
+                <ImageCarousel images={imageUrls} mobile={true} />
                 <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
-                    <TechStack techstack={tech} />
+                    <TechStack techstack={tech}
+                        linkwebsite=""
+                        linkcode=""
+                        downloadfile=""
+                        fileName=""
+                        code={false}
+                        website={false}
+                        download={false}
+                    />
                     <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            2 Elemento 2 Elemento 2 </p>
+                        <p>Applicazione Android per il controllo della sicurezza domestica. Viene associata con dispositivi ESP32 (allarme, sensore per la porta, fotocamera, sensore NFC) i quali potranno essere controllati e monitorati da essa. </p>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const ImageCarousel = (images: any) => {
+const ImageCarousel = ({ images, mobile }: { images: string[]; mobile: boolean }) => {
     const [index, setIndex] = useState(0);
     const [isMobile, setIsMobile] = useState(false);
 
@@ -18,7 +18,7 @@ const ImageCarousel = (images: any) => {
     // Clic su mobile → passa all’immagine successiva
     const handleClick = () => {
         if (isMobile) {
-            setIndex((prevIndex) => (prevIndex + 1) % images.images.length);
+            setIndex((prevIndex) => (prevIndex + 1) % images.length);
         }
     };
 
@@ -28,32 +28,33 @@ const ImageCarousel = (images: any) => {
             const bounds = e.currentTarget.getBoundingClientRect();
             const x = e.clientX - bounds.left;
             const width = bounds.width;
-            const newIndex = Math.floor((x / width) * images.images.length);
-            setIndex(Math.min(images.images.length - 1, Math.max(0, newIndex)));
+            const newIndex = Math.floor((x / width) * images.length);
+            setIndex(Math.min(images.length - 1, Math.max(0, newIndex)));
         }
     };
 
     return (
         <div
-            className="relative w-full h-full overflow-hidden rounded-xl cursor-pointer select-none mb-10"
+            className={`relative overflow-hidden rounded-xl cursor-pointer select-none mb-10 ${mobile ? 'h-[600px] aspect-auto w-auto' : 'w-full h-full'
+                }`}
             onMouseMove={handleMouseMove}
             onClick={handleClick}
         >
             <img
-                src={images.images[index]}
+                src={images[index]}
                 alt={`Slide ${index}`}
-                className="w-full h-full object-cover transition-all duration-300"
+                className="w-full h-full object-contain transition-all duration-300"
             />
             <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-1">
-                {images.images.map((_: any, i: any) => (
+                {images.map((_, i) => (
                     <div
                         key={i}
-                        className={`w-2 h-2 rounded-full ${i === index ? 'bg-white' : 'bg-gray-400'
-                            }`}
+                        className={`w-2 h-2 rounded-full ${i === index ? 'bg-white' : 'bg-gray-400'}`}
                     />
                 ))}
             </div>
         </div>
+
     );
 };
 

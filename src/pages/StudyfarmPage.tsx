@@ -5,11 +5,10 @@ import TechStack from "../components/TechStack";
 
 const StudyfarmPage = () => {
     const imageUrls = [
-        'https://picsum.photos/id/1018/800/400',
-        'https://picsum.photos/id/1023/800/400',
-        'https://picsum.photos/id/1024/800/400',
-        'https://picsum.photos/id/1025/800/400',
-    ];
+        '../studyfarm/screen-studyfarm-1.png',
+        '../studyfarm/screen-studyfarm-2.png',
+        '../studyfarm/screen-studyfarm-3.png',
+    ]
 
     const tech = [
         "ReactNative"
@@ -25,22 +24,20 @@ const StudyfarmPage = () => {
                 slug="studyfarm"
             />
             <div className="max-w-[1085px] mx-auto px-10">
-                <AbovethefoldSingleProject
-                    title="Studyfarm"
-                    linkwebsite=""
-                    linkcode="https://github.com/matteraggi/avvoltoio-smm"
-                    downloadfile=""
-                    fileName=""
-                    code={true}
-                    website={false}
-                    download={false} />
-                <ImageCarousel images={imageUrls} />
+                <AbovethefoldSingleProject title="Studyfarm" />
+                <ImageCarousel images={imageUrls} mobile={true} />
                 <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
-                    <TechStack techstack={tech} />
+                    <TechStack techstack={tech}
+                        linkwebsite=""
+                        linkcode="https://github.com/matteraggi/StudyApp-react-native"
+                        downloadfile="../studyapp.apk"
+                        fileName="StudyFarm App"
+                        code={true}
+                        website={false}
+                        download={true}
+                    />
                     <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            2 Elemento 2 Elemento 2 </p>
+                        <p>Applicazione Android e iOS per la gestione delle ore di studio. Timer con ricompense monetarie spendibili nello Shop per incentivare lo studio attraverso la gamification.</p>
                     </div>
                 </div>
             </div>

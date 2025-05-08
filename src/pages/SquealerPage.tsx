@@ -5,10 +5,9 @@ import TechStack from "../components/TechStack";
 
 const SquealerPage = () => {
     const imageUrls = [
-        'https://picsum.photos/id/1018/800/400',
-        'https://picsum.photos/id/1023/800/400',
-        'https://picsum.photos/id/1024/800/400',
-        'https://picsum.photos/id/1025/800/400',
+        '../squealer/screen-squealer-1.png',
+        '../squealer/screen-squealer-2.png',
+        '../squealer/screen-squealer-3.png',
     ];
 
     const tech = [
@@ -26,22 +25,19 @@ const SquealerPage = () => {
                 slug="squealer"
             />
             <div className="max-w-[1085px] mx-auto px-10">
-                <AbovethefoldSingleProject
-                    title="Squealer"
-                    linkwebsite=""
-                    linkcode="https://github.com/matteraggi/avvoltoio-smm"
-                    downloadfile=""
-                    fileName=""
-                    code={true}
-                    website={false}
-                    download={false} />
-                <ImageCarousel images={imageUrls} />
+                <AbovethefoldSingleProject title="Squealer" />
+                <ImageCarousel images={imageUrls} mobile={false} />
                 <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
-                    <TechStack techstack={tech} />
+                    <TechStack techstack={tech}
+                        linkwebsite=""
+                        linkcode="https://github.com/matteraggi/avvoltoio-smm"
+                        downloadfile=""
+                        fileName=""
+                        code={true}
+                        website={false}
+                        download={false} />
                     <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento 2 Elemento
-                            2 Elemento 2 Elemento 2 </p>
+                        <p>Un social network innovativo. Un social network delle persone, che premia chi crea contenuto valido, non chi ha followers. Quella mostrata qui è la piattaforma per Social Media Manager.</p>
                     </div>
                 </div>
             </div>
