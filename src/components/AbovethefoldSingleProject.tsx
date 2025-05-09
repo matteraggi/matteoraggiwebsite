@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const AbovethefoldSingleProject = (props: any) => {
   return (
     <div className="flex flex-col h-[150px] sm:h-[200px] justify-center items-center relative w-full text-center">
-      <div className="mt-[75px] flex h-[250px] sm:h-[400px] justify-start items-start relative w-full text-left gap-[50px] ">
-        <Link to="/progetti">
+      <div className="mt-[75px] flex h-[250px] sm:h-[400px] justify-start items-start relative w-full text-left sm:gap-[50px] ">
+        <Link to="/progetti" className="hidden sm:block">
           <img
             alt="arrow-back"
             src="/arrow.svg"

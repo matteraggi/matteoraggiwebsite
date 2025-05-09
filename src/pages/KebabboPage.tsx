@@ -28,7 +28,7 @@ const KebabboPage = () => {
             <div className="max-w-[1085px] mx-auto px-10">
                 <AbovethefoldSingleProject title="Kebabbo" />
                 <ImageCarousel images={imageUrls} mobile={true} />
-                <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
+                <div className="flex flex-col sm:flex-row w-full mb-10 sm:gap-28">
                     <TechStack techstack={tech}
                         linkwebsite="http://kebabbo.top"
                         linkcode=""

@@ -31,7 +31,7 @@ const HotelChcPage = () => {
             <div className="max-w-[1085px] mx-auto px-10">
                 <AbovethefoldSingleProject title="Depliant Hotel CHC" />
                 <ImageCarousel images={imageUrls} mobile={false} />
-                <div className="flex flex-col sm:flex-row w-full mb-10 gap-28">
+                <div className="flex flex-col sm:flex-row w-full mb-10 sm:gap-28">
                     <TechStack techstack={tech}
                         linkwebsite=""
                         linkcode=""
