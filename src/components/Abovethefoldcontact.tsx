@@ -4,7 +4,6 @@ import Linkedin from "./icons/Linkedin";
 import Mail from "./icons/Mail";
 import TextField from "@mui/material/TextField";
 import emailjs from "@emailjs/browser";
-import DownloadFiles from "./DownloadFiles";
 
 const Abovethefoldcontact = () => {
   const [name, setName] = useState("");
