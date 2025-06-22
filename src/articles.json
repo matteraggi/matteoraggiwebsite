@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "Devlog 0: inizio",
+      "date": "22-06-2025",
+      "slug": "devlog-0-giocoinsetti",
+      "image": "/foto_giocoinsetti/image3.png",
+      "imageAlt": "gioco insetti chatgpt generated image",
+      "category": "coding"
+    },
+    {
       "title": "Trasformare WordPress in React + Headless WordPress",
       "date": "16-03-2024",
       "slug": "headless-wordpress-react",

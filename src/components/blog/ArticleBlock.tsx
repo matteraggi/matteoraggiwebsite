@@ -2,11 +2,11 @@ import { Link, useParams } from "react-router-dom";
 import postsData from "./../../posts.json";
 import articlesData from "./../../articles.json";
 import SEO from "./SEO";
+import ReactMarkdown from "react-markdown";
 
 const ArticleBlock = () => {
   const { slug } = useParams();
 
-  // Trova il post corrispondente allo slug
   const post = postsData.posts.find((post) => post.slug === slug);
   const postInfo = articlesData.articles.find((post) => post.slug === slug);
 
@@ -67,10 +67,16 @@ const ArticleBlock = () => {
               </p>
             </div>
           </div>
-          <div
-            className="post-content"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          ></div>
+
+          <div className="post-content">
+            {post.isMarkdown ? (
+              <ReactMarkdown>{post.content}</ReactMarkdown>
+            ) : (
+              <div
+                dangerouslySetInnerHTML={{ __html: post.content }}
+              ></div>
+            )}
+          </div>
         </div>
       </div>
     </>
