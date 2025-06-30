@@ -1,11 +1,19 @@
 {
   "articles": [
     {
+      "title": "Devlog 1: tilemap e prospettiva",
+      "date": "30-06-2025",
+      "slug": "devlog-1-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog1.png",
+      "imageAlt": "devlog 1 gioco insetti",
+      "category": "coding"
+    },
+    {
       "title": "Devlog 0: inizio",
       "date": "22-06-2025",
       "slug": "devlog-0-giocoinsetti",
       "image": "/foto_giocoinsetti/image3.png",
-      "imageAlt": "gioco insetti chatgpt generated image",
+      "imageAlt": "devlog 0 gioco insetti",
       "category": "coding"
     },
     {
