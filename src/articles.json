@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Devlog 3: talk prompt e dialoghi",
+      "date": "01-07-2025",
+      "slug": "devlog-3-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog3.png",
+      "imageAlt": "devlog 3 gioco insetti",
+      "category": "coding"
+    },
+    {
+      "title": "Devlog 2: animazioni player e primi NPC",
+      "date": "01-07-2025",
+      "slug": "devlog-2-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog2.png",
+      "imageAlt": "devlog 2 gioco insetti",
+      "category": "coding"
+    },
+    {
       "title": "Devlog 1: tilemap e prospettiva",
       "date": "30-06-2025",
       "slug": "devlog-1-giocoinsetti",
