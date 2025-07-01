@@ -56,15 +56,19 @@ const CategorySection = () => {
         type="page"
         slug={"category/" + slug}
       />
-      <div className="padding-top-">
-        <Link to="/blog">
+      <div className="relative flex items-center pt-[100px]">
+        {/* freccia fissata a sinistra */}
+        <Link to="/blog" className="absolute left-0 ml-9">
           <img
-            alt="arrow-back"
             src="/arrow.svg"
-            style={{ width: "50px", height: "auto", marginLeft: "35px" }}
+            alt="Torna alla lista articoli"
+            className="w-[50px] h-auto"
             loading="lazy"
           />
         </Link>
+
+        {/* titolo davvero centrato */}
+        <h1 className="mx-auto text-2xl font-semibold italic">{slug}</h1>
       </div>
       <div className="blog-box">
         <div className="container-blog">

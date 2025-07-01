@@ -56,9 +56,10 @@ const ArticleBlock = () => {
                 src={postInfo.image ?? "/public/fav-image.png"}
                 alt={postInfo.imageAlt ?? "image"}
                 style={{
-                  width: "100%",
+                  width: "70%",
                   height: "auto",
-                  marginBottom: "2rem",
+                  margin: "0 auto 2rem",   // centratura orizzontale
+                  display: "block",
                 }}
                 loading="lazy"
               />
