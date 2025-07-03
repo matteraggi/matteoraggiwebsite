@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "Devlog 4: refactoring",
+      "date": "03-07-2025",
+      "slug": "devlog-4-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog4.png",
+      "imageAlt": "devlog 4 gioco insetti",
+      "category": "coding"
+    },
+    {
       "title": "Devlog 3: talk prompt e dialoghi",
       "date": "01-07-2025",
       "slug": "devlog-3-giocoinsetti",
