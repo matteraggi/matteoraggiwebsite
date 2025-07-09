@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "Devlog 5: dialogue manager plugin e risoluzione ridotta",
+      "date": "04-07-2025",
+      "slug": "devlog-5-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog5.png",
+      "imageAlt": "devlog 5 gioco insetti",
+      "category": "coding"
+    },
+    {
       "title": "Devlog 4: refactoring",
       "date": "03-07-2025",
       "slug": "devlog-4-giocoinsetti",

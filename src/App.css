@@ -17,6 +17,19 @@ p {
   }
 }
 
+.post-content p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  color: rgb(86, 85, 85);
+
+  @media (max-width: 900px) {
+    margin-bottom: 50px;
+  }
+}
+
 .about {
   background-color: white;
   padding: 150px 0px;
