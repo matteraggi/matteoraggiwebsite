@@ -18,7 +18,7 @@
       "isMarkdown": true,
       "slug": "devlog-6-giocoinsetti",
       "description": "Devlog 6 di giocoinsetti: animazione formica NPC",
-      "content": "",
+      "content": "Oggi puntata corta. Molto lavoro perché non sono ancora capace di fare animazioni, ma poco da raccontare.\n\nHo preso il design molto semplice della formica che avevo creato prima, e ho aggiunto una animazione.\nLa formica adesso fuma una sigaretta.\n\nL'animazione è composta da 4 tag, quindi 4 micro-animazioni differenti:\n\n - idle_bottom\n - smoke_up\n - idle_top\n - smoke_down\n\nQuesta separazione serve a gestire in modo variabile la durata degli step di animazione.\nInfatti ho potuto decidere e regolare la durata di ogni fase da Godot. E volendo potrei anche eseguire una singola parte dell'animazione in determinati momenti.\n\nUn esempio di utilizzo sarebbe muovere la sigaretta dal basso verso l'alto nel mezzo del dialogo con l'NPC.\n\nEd ecco il risultato finale:\n\n![gif animazione formica](/foto_giocoinsetti/devlog6-gif.gif)\n\nAl prossimo devlog :)",
       "author": "Matteo Raggi"
     },
     {

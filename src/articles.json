@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "Devlog 6: animazione formica NPC",
+      "date": "05-07-2025",
+      "slug": "devlog-6-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog6.png",
+      "imageAlt": "devlog 6 gioco insetti",
+      "category": "coding"
+    },
+    {
       "title": "Devlog 5: dialogue manager plugin e risoluzione ridotta",
       "date": "04-07-2025",
       "slug": "devlog-5-giocoinsetti",
@@ -82,7 +90,7 @@
     },
     {
       "title": "Top 3 Piattaforme Arbitraggio Crypto: I miei consigli personali",
-      "date": "12/08/2023",
+      "date": "12-08-2023",
       "slug": "piattaforme-arbitraggio-crypto",
       "image": "/piattaforme-arbitraggio-crypto.png",
       "imageAlt": "piattaforme arbitraggio crypto",
@@ -90,7 +98,7 @@
     },
     {
       "title": "Studiare Grafici Criptovalute: i 5 Tips OBBGLIGATORI",
-      "date": "21/07/2023",
+      "date": "21-07-2023",
       "slug": "studiare-grafici-criptovalute",
       "image": "/studiare-grafici-criptovalute.png",
       "imageAlt": "studiare grafici criptovalute",
@@ -98,7 +106,7 @@
     },
     {
       "title": "2000€ al mese: Con il Mining Bitcoin Guadagno?",
-      "date": "16/07/2023",
+      "date": "16-07-2023",
       "slug": "mining-bitcoin-guadagno",
       "image": "/mining-bitcoin-guadagno.png",
       "imageAlt": "mining bitcoin guadagno",
@@ -106,7 +114,7 @@
     },
     {
       "title": "Cosa influenza le Criptovalute? Queste cose ti fanno perdere (o guadagnare) soldi!",
-      "date": "13/07/2023",
+      "date": "13-07-2023",
       "slug": "cosa-influenza-le-criptovalute",
       "image": "/Cosa-influenza-le-Criptovalute.png",
       "imageAlt": "cosa influenza le criptovalute",
@@ -114,7 +122,7 @@
     },
     {
       "title": "Supply Crypto: Il segreto sul prezzo delle Criptovalute",
-      "date": "09/07/2023",
+      "date": "09-07-2023",
       "slug": "supply-crypto",
       "image": "/supply-crypto.png",
       "imageAlt": "supply crypto",
@@ -122,7 +130,7 @@
     },
     {
       "title": "Come creare una Criptovaluta: cosa è necessario sapere",
-      "date": "06/07/2023",
+      "date": "06-07-2023",
       "slug": "come-creare-una-criptovaluta",
       "image": "/come-creare-una-criptovaluta.png",
       "imageAlt": "come creare una criptovaluta",
@@ -130,7 +138,7 @@
     },
     {
       "title": "Scopri 5 modi per Guadagnare Crypto Gratis",
-      "date": "03/07/2023",
+      "date": "03-07-2023",
       "slug": "guadagnare-crypto-gratis",
       "image": "/guadagnare-crypto-gratis.png",
       "imageAlt": "guadagnare crypto gratis",
@@ -138,7 +146,7 @@
     },
     {
       "title": "Cosa posso comprare con i Bitcoin?",
-      "date": "01/07/2023",
+      "date": "01-07-2023",
       "slug": "cosa-posso-comprare-con-i-bitcoin",
       "image": "/cosa-posso-comprare-con-bitcoin.png",
       "imageAlt": "cosa posso comprare con i bitcoin",
@@ -146,7 +154,7 @@
     },
     {
       "title": "Perché le Criptovalute saranno rilevanti in futuro",
-      "date": "27/06/2023",
+      "date": "27-06-2023",
       "slug": "criptovalute-futuro",
       "image": "/criptovalute-futuro.png",
       "imageAlt": "criptovalute futuro",
@@ -154,7 +162,7 @@
     },
     {
       "title": "Migliori Applicazioni Criptovalute: La Top 3",
-      "date": "16/06/2023",
+      "date": "16-06-2023",
       "slug": "applicazioni-criptovalute",
       "image": "/migliori-applicazione-criptovalute.png",
       "imageAlt": "migliori applicazioni criptovalute",
@@ -162,7 +170,7 @@
     },
     {
       "title": "I Token cosa sono? Scopri 7 tipi differenti",
-      "date": "05/06/2023",
+      "date": "05-06-2023",
       "slug": "token-cosa-sono",
       "image": "/token-cosa-sono.png",
       "imageAlt": "token cosa sono",
@@ -170,7 +178,7 @@
     },
     {
       "title": "Il miglior libro sulle Criptovalute? Guida 2023",
-      "date": "03/06/2023",
+      "date": "03-06-2023",
       "slug": "libro-sulle-criptovalute",
       "image": "libro-criptovalute.png",
       "imageAlt": "libro criptovalute",
@@ -178,7 +186,7 @@
     },
     {
       "title": "Migliori Wallet Crypto nel 2023: Top 4",
-      "date": "26/05/2023",
+      "date": "26-05-2023",
       "slug": "migliori-wallet-crypto",
       "image": "/migliori-wallet-crypto.png",
       "imageAlt": "migliori wallet crypto",
@@ -186,7 +194,7 @@
     },
     {
       "title": "Gli NFT non sono quello che pensi: scopri i reali utilizzi",
-      "date": "15/05/2023",
+      "date": "15-05-2023",
       "slug": "nft-reali-utilizzi",
       "image": "/gli-nft-non-sono-quello-che-pensi.png",
       "imageAlt": "nft reali utilizzi",
@@ -194,7 +202,7 @@
     },
     {
       "title": "Conviene Investire in Criptovalute? 1 domanda per capirlo",
-      "date": "8/05/2023",
+      "date": "08-05-2023",
       "slug": "conviene-investire-in-criptovalute",
       "image": "/conviene-investire-in-crypto.png",
       "imageAlt": "conviene investire in criptovalute",
@@ -202,7 +210,7 @@
     },
     {
       "title": "Devi Investire 1000 Euro in Bitcoin: ecco perché",
-      "date": "01/05/2023",
+      "date": "01-05-2023",
       "slug": "investire-1000-euro-in-bitcoin",
       "image": "/investire-1000-euro-in-bitcoin.png",
       "imageAlt": "investire 1000 euro in bitcoin",
@@ -210,7 +218,7 @@
     },
     {
       "title": "Investire in Criptovalute: Scopri come iniziare Step by Step",
-      "date": "14/04/2023",
+      "date": "14-04-2023",
       "slug": "investire-in-criptovalute",
       "image": "/investire-in-criptovalute.png",
       "imageAlt": "investire in criptovalute",
@@ -218,7 +226,7 @@
     },
     {
       "title": "Investire in bitcoin | La Guida Completa 2023",
-      "date": "07/04/2023",
+      "date": "07-04-2023",
       "slug": "investire-in-bitcoin",
       "image": "/investire-in-bitcoin-guida.png",
       "imageAlt": "investire in bitcoin",
@@ -226,7 +234,7 @@
     },
     {
       "title": "Il Layer 1 nelle Crypto: qual’è il suo ruolo?",
-      "date": "27/03/2023",
+      "date": "27-03-2023",
       "slug": "layer-1-crypto",
       "image": "/layer-1-crypto.png",
       "imageAlt": "layer-1-crypto",
@@ -234,7 +242,7 @@
     },
     {
       "title": "Security Token: Cosa sono e qual’è la loro utilità",
-      "date": "23/03/2023",
+      "date": "23-03-2023",
       "slug": "security-token",
       "image": "/security-token.png",
       "imageAlt": "security-token",
@@ -242,7 +250,7 @@
     },
     {
       "title": "Il Rug Pull: Cos’è e Come puoi riconoscerlo",
-      "date": "20/03/2023",
+      "date": "20-03-2023",
       "slug": "rug-pull",
       "image": "/rug-pull.png",
       "imageAlt": "rug-pull",
@@ -250,7 +258,7 @@
     },
     {
       "title": "Come fare l’Analisi Tecnica di un grafico | Guida Trading Base",
-      "date": "13/03/2023",
+      "date": "13-03-2023",
       "slug": "guida-trading-base",
       "image": "/guida-trading.png",
       "imageAlt": "guida trading base",
@@ -258,7 +266,7 @@
     },
     {
       "title": "Come Creare un Portafoglio Crypto | Guida Completa",
-      "date": "27/02/2023",
+      "date": "27-02-2023",
       "slug": "creare-un-portafoglio-crypto",
       "image": "/creare-un-portafoglio-crypto-guida.png",
       "imageAlt": "creare un portafoglio crypto",
@@ -266,7 +274,7 @@
     },
     {
       "title": "BitGet Recensione: La Piattaforma di Copy Trading Numero 1",
-      "date": "23/01/2023",
+      "date": "23-01-2023",
       "slug": "bitget-recensione",
       "image": "/bitget-recensione.jpg",
       "imageAlt": "bitget recensione",
@@ -274,7 +282,7 @@
     },
     {
       "title": "Cold Wallet: Tutto quello che c’è da sapere",
-      "date": "16/01/2023",
+      "date": "16-01-2023",
       "slug": "cold-wallet",
       "image": "/cold-wallet.jpg",
       "imageAlt": "cold wallet",
@@ -282,7 +290,7 @@
     },
     {
       "title": "Ha senso Minare DogeCoin?",
-      "date": "22/12/2022",
+      "date": "22-12-2022",
       "slug": "minare-dogecoin",
       "image": "/Minare-Dogecoin.jpg",
       "imageAlt": "minare dogecoin",
@@ -290,7 +298,7 @@
     },
     {
       "title": "Come Creare NFT Gratis in 10 minuti",
-      "date": "12/12/2022",
+      "date": "12-12-2022",
       "slug": "come-creare-nft-gratis",
       "image": "/come-creare-NFT-gratis.jpg",
       "imageAlt": "come creare nft gratis",
@@ -298,7 +306,7 @@
     },
     {
       "title": "Cosa sono i Futures Crypto: Trading Criptovalute",
-      "date": "05/12/2022",
+      "date": "05-12-2022",
       "slug": "cosa-sono-i-futures-crypto",
       "image": "/Cosa-sono-i-Futures-Crypto.jpg",
       "imageAlt": "cosa sono i futures crypto",
@@ -306,7 +314,7 @@
     },
     {
       "title": "Blockchain Investire: I migliori 6 metodi",
-      "date": "23/11/2022",
+      "date": "23-11-2022",
       "slug": "blockchain-investire",
       "image": "/blockchain-investire-scaled.jpg",
       "imageAlt": "blockchain investire",
@@ -314,7 +322,7 @@
     },
     {
       "title": "Cos’è il Trilemma Blockchain? Le 6 migliori soluzioni",
-      "date": "14/11/2022",
+      "date": "14-11-2022",
       "slug": "trilemma-blockchain",
       "image": "/Trilemma-Blockchain-scaled.jpg",
       "imageAlt": "trilemma blockchain",
@@ -322,7 +330,7 @@
     },
     {
       "title": "PAC Criptovalute Tutorial: cos’è e come crearlo",
-      "date": "07/11/2022",
+      "date": "07-11-2022",
       "slug": "pac-criptovalute",
       "image": "/PAC-CRIPTOVALUTE-scaled.jpg",
       "imageAlt": "pac criptovalute",
@@ -330,7 +338,7 @@
     },
     {
       "title": "Come creare una crypto in 10 minuti: Tutorial completo",
-      "date": "31/10/2022",
+      "date": "31-10-2022",
       "slug": "come-creare-una-crypto",
       "image": "/Come-creare-una-crypto.jpg",
       "imageAlt": "come creare una crypto",
@@ -338,7 +346,7 @@
     },
     {
       "title": "Come investire in crypto da minorenni: Guida Definitiva (2023)",
-      "date": "24/10/2022",
+      "date": "24-10-2022",
       "slug": "come-investire-in-crypto-da-minorenni",
       "image": "/Come-investire-in-Criptovalute-da-minorenni.jpg",
       "imageAlt": "come investire in criptovalute da minorenni",
@@ -346,7 +354,7 @@
     },
     {
       "title": "Terminologia Crypto: I 34 termini che non puoi non sapere",
-      "date": "17/10/2022",
+      "date": "17-10-2022",
       "slug": "terminologia-crypto",
       "image": "/terminologia-crypto.jpg",
       "imageAlt": "terminologia crypto",
@@ -354,7 +362,7 @@
     },
     {
       "title": "NFT e Metaverso: perchè sono collegati?",
-      "date": "25/04/2022",
+      "date": "25-04-2022",
       "slug": "nft-e-metaverso-collegati",
       "image": "/nft-metaverso.jpg",
       "imageAlt": "nft metaverso",
@@ -362,7 +370,7 @@
     },
     {
       "title": "NFT Gratis: i 4 metodi migliori per ottenerli",
-      "date": "23/04/2022",
+      "date": "23-04-2022",
       "slug": "nft-gratis",
       "image": "/nft-gratis.jpg",
       "imageAlt": "nft gratis",
@@ -370,7 +378,7 @@
     },
     {
       "title": "Web 3.0 Dapps: cosa sono le applicazioni decentralizzate",
-      "date": "27/02/2022",
+      "date": "27-02-2022",
       "slug": "web-3-0-dapps",
       "image": "/Web-3.0-Dapps.jpg",
       "imageAlt": "web 3.0 dapps",
@@ -378,7 +386,7 @@
     },
     {
       "title": "10 esempi di Intelligenza Artificiale nella vita quotidiana [2024]",
-      "date": "25/02/2022",
+      "date": "25-02-2022",
       "slug": "intelligenza-artificiale-nella-vita-quotidiana",
       "image": "/Intelligenza-Artificiale-nella-vita-quotidiana.jpg",
       "imageAlt": "intelligenza artificiale nella vita quotidiana",
@@ -386,7 +394,7 @@
     },
     {
       "title": "L’Internet delle cose è già tra di noi: Web 3.0",
-      "date": "20/02/2022",
+      "date": "20-02-2022",
       "slug": "internet-delle-cose",
       "image": "/internet-delle-cose.png",
       "imageAlt": "internet delle cose",
@@ -394,7 +402,7 @@
     },
     {
       "title": "Cos’è un Motore di Ricerca? Imparalo facilmente",
-      "date": "15/02/2022",
+      "date": "15-02-2022",
       "slug": "motore-di-ricerca-cos-e",
       "image": "/Che-cose-un-motore-di-ricerca.png",
       "imageAlt": "che cos'è un motore di ricerca",
@@ -402,7 +410,7 @@
     },
     {
       "title": "Web 4.0: tutta la verità sulla sua esistenza",
-      "date": "12/02/2022",
+      "date": "12-02-2022",
       "slug": "web-4-0",
       "image": "/Web-4.0.png",
       "imageAlt": "web 4.0",
@@ -410,7 +418,7 @@
     },
     {
       "title": "Web 2.0: il web dinamico, la prima rivoluzione di Internet",
-      "date": "11/02/2022",
+      "date": "11-02-2022",
       "slug": "web-2-0",
       "image": "/web-2.0.png",
       "imageAlt": "web 2.0",
@@ -418,7 +426,7 @@
     },
     {
       "title": "Web 1.0: web statico, l’antenato dell’internet di oggi",
-      "date": "07/02/2022",
+      "date": "07-02-2022",
       "slug": "web-1-0",
       "image": "/web-1.0.png",
       "imageAlt": "web 1.0",
@@ -426,7 +434,7 @@
     },
     {
       "title": "Collezione da 10000 NFT: il Tutorial completo per crearla",
-      "date": "02/01/2022",
+      "date": "02-01-2022",
       "slug": "come-creare-collezione-nft",
       "image": "/10000-nft.webp",
       "imageAlt": "collezione da 10000 nft",
@@ -434,7 +442,7 @@
     },
     {
       "title": "Web 3.0: cosa sono gli Unstoppable Domains",
-      "date": "24/12/2021",
+      "date": "24-12-2021",
       "slug": "unstoppable-domains",
       "image": "/unstoppable-domains.png",
       "imageAlt": "unstopable domains",
@@ -442,7 +450,7 @@
     },
     {
       "title": "I 9 migliori libri finanza personale da leggere assolutamente [2023]",
-      "date": "16/12/2021",
+      "date": "16-12-2021",
       "slug": "libri-finanza-personale",
       "image": "/Finanza-Personale-I-migliori-libri.jpg",
       "imageAlt": "finanza personale i migliori libri",
@@ -450,7 +458,7 @@
     },
     {
       "title": "Web 3.0 tutti i segreti: la guida definitiva",
-      "date": "15/12/2021",
+      "date": "15-12-2021",
       "slug": "web3",
       "image": "/WEB-3.0.png",
       "imageAlt": "web 3.0",
@@ -458,7 +466,7 @@
     },
     {
       "title": "Revolut recensione: il miglior conto online?",
-      "date": "13/12/2021",
+      "date": "13-12-2021",
       "slug": "revolut-recensione",
       "image": "/revolut-migliori-carte-di-credito.png",
       "imageAlt": "revolut migliori carte di credito",
@@ -466,7 +474,7 @@
     },
     {
       "title": "Decentraland Crypto: cos’è e come funziona – CryptoExplorer",
-      "date": "08/12/2021",
+      "date": "08-12-2021",
       "slug": "decentraland",
       "image": "/Decentraland-cose-e-come-funziona.png",
       "imageAlt": "Decentraland cos’è e come funziona",
@@ -474,7 +482,7 @@
     },
     {
       "title": "Ecco quali sono i Migliori Exchange Crypto",
-      "date": "29/11/2021",
+      "date": "29-11-2021",
       "slug": "migliori-exchange-crypto",
       "image": "/Migliori-Exchange-di-Criptovalute.png",
       "imageAlt": "migliori exchange di criptovalute",
@@ -482,7 +490,7 @@
     },
     {
       "title": "Cos’è Metamask? Ecco perché è l’Hot Wallet numero 1",
-      "date": "26/11/2021",
+      "date": "26-11-2021",
       "slug": "metamask",
       "image": "/metamask-cose-e-come-funziona.png",
       "imageAlt": "metmask cos’è e come funziona",
@@ -490,7 +498,7 @@
     },
     {
       "title": "Le Criptovalute sono il futuro",
-      "date": "24/11/2021",
+      "date": "24-11-2021",
       "slug": "criptovalute-sono-il-futuro",
       "image": "/criptovalute-futuro.png",
       "imageAlt": "criptovalute futuro",
@@ -498,7 +506,7 @@
     },
     {
       "title": "Opensea come funziona: la miglior piattaforma per gli NFT",
-      "date": "24/11/2021",
+      "date": "24-11-2021",
       "slug": "opensea-come-funziona",
       "image": "/Come-Funziona-Opensea.png",
       "imageAlt": "come funziona opensea",
@@ -506,7 +514,7 @@
     },
     {
       "title": "NFT: cosa sono e perché nessuno li capisce",
-      "date": "22/11/2021",
+      "date": "22-11-2021",
       "slug": "nft",
       "image": "/NFT-cosa-sono.webp",
       "imageAlt": "nft cosa sono",
@@ -514,7 +522,7 @@
     },
     {
       "title": "The sandbox come funziona: innovazione e avanguardia – CryptoExplorer",
-      "date": "20/11/2021",
+      "date": "20-11-2021",
       "slug": "the-sandbox",
       "image": "/the-sandbox-wallpaper.jpg",
       "imageAlt": "the sandbox come funziona",
@@ -522,7 +530,7 @@
     },
     {
       "title": "Criptovalute dove conservarle: Hard wallet o exchange",
-      "date": "18/11/2021",
+      "date": "18-11-2021",
       "slug": "dove-conservare-criptovalute",
       "image": "/dove-conservare-criptovalute.png",
       "imageAlt": "dove conservare criptovalute",
@@ -530,7 +538,7 @@
     },
     {
       "title": "Il metaverso segnerà la fine dell’umanità?",
-      "date": "16/11/2021",
+      "date": "16-11-2021",
       "slug": "metaverso",
       "image": "/Il-Metaverso-segnera-la-fine-dellUmanita.png",
       "imageAlt": "il metaverso segnerà la fine dell’umanità",

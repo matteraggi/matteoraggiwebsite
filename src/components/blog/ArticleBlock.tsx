@@ -3,12 +3,29 @@ import postsData from "./../../posts.json";
 import articlesData from "./../../articles.json";
 import SEO from "./SEO";
 import ReactMarkdown from "react-markdown";
+import React, { useMemo } from "react";
 
 const ArticleBlock = () => {
   const { slug } = useParams();
 
   const post = postsData.posts.find((post) => post.slug === slug);
   const postInfo = articlesData.articles.find((post) => post.slug === slug);
+
+  const sortedArticles = useMemo(() => {
+    return [...articlesData.articles].sort((a, b) => {
+      const [dayA, monthA, yearA] = a.date.split("-").map(Number);
+      const [dayB, monthB, yearB] = b.date.split("-").map(Number);
+      const dateA = new Date(yearA, monthA - 1, dayA);
+      const dateB = new Date(yearB, monthB - 1, dayB);
+      return dateA.getTime() - dateB.getTime();
+    });
+  }, []);
+
+  const currentIndex = sortedArticles.findIndex((art) => art.slug === slug);
+  const nextArticle =
+    currentIndex >= 0 && currentIndex < sortedArticles.length - 1
+      ? sortedArticles[currentIndex + 1]
+      : null;
 
   if (!post || !postInfo) {
     return (
@@ -58,7 +75,7 @@ const ArticleBlock = () => {
                 style={{
                   width: "70%",
                   height: "auto",
-                  margin: "0 auto 2rem",   // centratura orizzontale
+                  margin: "0 auto 2rem",
                   display: "block",
                 }}
                 loading="lazy"
@@ -73,11 +90,34 @@ const ArticleBlock = () => {
             {post.isMarkdown ? (
               <ReactMarkdown>{post.content}</ReactMarkdown>
             ) : (
-              <div
-                dangerouslySetInnerHTML={{ __html: post.content }}
-              ></div>
+              <div dangerouslySetInnerHTML={{ __html: post.content }}></div>
             )}
           </div>
+
+          {nextArticle && (
+            <div
+              style={{
+                width: "100%",
+                textAlign: "right",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+                paddingRight: "1rem", // se vuoi un po' di distacco dal bordo destro
+              }}
+            >
+              <Link
+                to={`/blog/${nextArticle.slug}`}
+                style={{
+                  textDecoration: "none",
+                  color: "#0070f3",
+                  fontWeight: "bold",
+                  fontSize: "1.1rem",
+                }}
+              >
+                Vai al prossimo articolo →
+              </Link>
+            </div>
+          )}
+
         </div>
       </div>
     </>
