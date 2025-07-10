@@ -3,7 +3,7 @@ import postsData from "./../../posts.json";
 import articlesData from "./../../articles.json";
 import SEO from "./SEO";
 import ReactMarkdown from "react-markdown";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 
 const ArticleBlock = () => {
   const { slug } = useParams();
