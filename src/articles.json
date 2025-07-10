@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "Devlog 7: salvataggio dati e test con primo NPC",
+      "date": "06-07-2025",
+      "slug": "devlog-7-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog7.png",
+      "imageAlt": "devlog 7 gioco insetti",
+      "category": "coding"
+    },
+    {
       "title": "Devlog 6: animazione formica NPC",
       "date": "05-07-2025",
       "slug": "devlog-6-giocoinsetti",
