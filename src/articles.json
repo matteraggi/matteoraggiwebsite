@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "Devlog 8: tentativi di creazione tilemap e prime decorazioni",
+      "date": "08-07-2025",
+      "slug": "devlog-8-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog8.png",
+      "imageAlt": "devlog 8 gioco insetti",
+      "category": "coding"
+    },
+    {
       "title": "Devlog 7: salvataggio dati e test con primo NPC",
       "date": "06-07-2025",
       "slug": "devlog-7-giocoinsetti",
