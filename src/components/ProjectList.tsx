@@ -32,23 +32,23 @@ const ProjectList = () => {
         download={false}
       />
       <PortfolioCard
-        heading="StudyFarm App"
-        route="/studyfarm"
-        text="Applicazione Android e iOS per la gestione delle ore di studio. Timer con ricompense monetarie spendibili nello Shop per incentivare lo studio attraverso la gamification."
-        sourceimage="../studyfarm/studyfarm.jpg"
-        linkwebsite=""
-        linkcode="https://github.com/matteraggi/StudyApp-react-native"
-        downloadfile="../studyapp.apk"
-        fileName="StudyFarm App"
-        code={true}
-        website={false}
-        download={true}
-      />
-      <PortfolioCardReverse
         heading="MissionBee"
         route="/missionbee"
         text="Applicazione iOS in Swift sviluppata per partecipare alla Swift Student Challenge. È un gioco per bambini che insegna a rispettare l'ambiente e il ruolo delle api in esso."
         sourceimage="../missionbee/missionbee.png"
+        linkwebsite=""
+        linkcode=""
+        downloadfile=""
+        fileName=""
+        code={false}
+        website={false}
+        download={false}
+      />
+      <PortfolioCardReverse
+        heading="Depliant Hotel CHC"
+        route="/depliant-hotel-chc"
+        text="Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice."
+        sourceimage="../hotelchc/chc-hotel.png"
         linkwebsite=""
         linkcode=""
         downloadfile=""
@@ -67,19 +67,6 @@ const ProjectList = () => {
         downloadfile=""
         fileName=""
         code={true}
-        website={false}
-        download={false}
-      />
-      <PortfolioCardReverse
-        heading="Depliant Hotel CHC"
-        route="/depliant-hotel-chc"
-        text="Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice."
-        sourceimage="../hotelchc/chc-hotel.png"
-        linkwebsite=""
-        linkcode=""
-        downloadfile=""
-        fileName=""
-        code={false}
         website={false}
         download={false}
       />
