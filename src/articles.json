@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "Devlog 9: le prime luci",
+      "date": "04-09-2025",
+      "slug": "devlog-9-giocoinsetti",
+      "image": "/foto_giocoinsetti/devlog9.png",
+      "imageAlt": "devlog 9 gioco insetti",
+      "category": "coding"
+    },
+    {
       "title": "Devlog 8: tentativi di creazione tilemap e prime decorazioni",
       "date": "08-07-2025",
       "slug": "devlog-8-giocoinsetti",
