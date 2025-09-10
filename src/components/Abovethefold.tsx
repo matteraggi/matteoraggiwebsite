@@ -1,6 +1,6 @@
 import Linkedin from "./icons/Linkedin";
 import Instagram from "./icons/Instagram";
-import Whatsapp from "./icons/Github";
+import Github from "./icons/Github";
 import React from "./icons/React";
 import Nextjs from "./icons/Nextjs";
 import AWS from "./icons/AWS";
@@ -28,7 +28,7 @@ const Abovethefold = () => {
 
                 <Instagram width="35px" height="35px" />
 
-                <Whatsapp />
+                <Github width="35px" height="35px" />
               </span>
             </div>
             <div rel="preload" className="hero-img"></div>
