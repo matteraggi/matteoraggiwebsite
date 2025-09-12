@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-[1085px] mx-auto px-10">
         <div className="footerclass">
           <h3 className="footerh3">
-            Copyright © 2023. All rights are reserved
+            Copyright © 2025. All rights are reserved
           </h3>
           <div className="footer-icons">
             <LinkedinWhite />
