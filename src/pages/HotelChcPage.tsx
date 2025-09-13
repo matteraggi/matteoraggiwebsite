@@ -31,17 +31,19 @@ const HotelChcPage = () => {
             <div className="max-w-[1085px] mx-auto px-10">
                 <AbovethefoldSingleProject title="Depliant Hotel CHC" />
                 <ImageCarousel images={imageUrls} mobile={false} />
-                <TechStack techstack={tech}
-                    linkwebsite=""
-                    linkcode=""
-                    downloadfile=""
-                    fileName=""
-                    code={false}
-                    website={false}
-                    download={false}
-                />
-                <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                    <p>Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice.</p>
+                <div className="flex flex-col w-full mb-10">
+                    <TechStack techstack={tech}
+                        linkwebsite=""
+                        linkcode=""
+                        downloadfile=""
+                        fileName=""
+                        code={false}
+                        website={false}
+                        download={false}
+                    />
+                    <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
+                        <p>Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice.</p>
+                    </div>
                 </div>
             </div>
         </>

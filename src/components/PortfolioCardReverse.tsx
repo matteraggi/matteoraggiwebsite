@@ -30,6 +30,7 @@ const PortfolioCardReverse = (props: any) => {
               <DownloadProject
                 fileDir={props.downloadfile}
                 fileName={props.fileName}
+                color={"black"}
               />
             </div>
           )}

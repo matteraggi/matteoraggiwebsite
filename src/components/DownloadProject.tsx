@@ -1,4 +1,5 @@
 import Download from "./icons/Download";
+import DownloadWhite from "./icons/DownloadWhite";
 
 const DownloadProject = (props: any) => {
   const handleDownload = () => {
@@ -14,7 +15,7 @@ const DownloadProject = (props: any) => {
 
   return (
     <div onClick={handleDownload} className="pointer">
-      <Download />
+      {props.color === "white" ? <DownloadWhite  /> : <Download />}
     </div>
   );
 };

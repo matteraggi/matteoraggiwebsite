@@ -12,9 +12,11 @@ import ReactNative from "./icons/ReactNative";
 import Supabase from "./icons/Supabase";
 import Swift from "./icons/Swift";
 import Tailwind from "./icons/Tailwind";
-import Github from "./icons/Github"; // tua icona GitHub
-import Live from "./icons/Live";     // tua icona "sito live"
-import DownloadProject from "./DownloadProject"; // il tuo componente
+import DownloadProject from "./DownloadProject";
+import GithubWhite from "./icons/GithubWhite";
+import LiveWhite from "./icons/LiveWhite";
+import Live from "./icons/Live";
+import Github from "./icons/Github";
 
 const techMap: { [key: string]: { label: string; Icon: React.FC<React.SVGProps<SVGSVGElement>>, size: number } } = {
     react: { label: 'React', Icon: React, size: 35 },
@@ -52,54 +54,83 @@ const TechStack = ({
     linkcode = "",
     linkwebsite = "",
     downloadfile = "",
-    fileName = ""
+    fileName = "",
 }: TechStackProps) => {
     return (
-        <div className="w-full md:w-2/5 bg-gray-100 rounded-lg flex flex-col items-center justify-center py-6 px-4 mb-8 sm:mb-0">
-            <h2 className="text-2xl font-semibold mb-4">Tech Stack</h2>
-            <div className="flex flex-col gap-2 w-full items-center">
-                {techstack.map((tech) => {
-                    const techData = techMap[tech.toLowerCase()];
-                    if (!techData) return null;
-                    const { Icon, label, size } = techData;
-                    return (
-                        <div key={tech} className="flex items-center gap-4 w-[60%] justify-center">
-                            <Icon width={size} height={size} />
-                            <p className="text-xl">{label}</p>
+        <div className="flex flex-col mb-4 sm:my-4">
+            <div className="w-full relative h-[70px]">
+                {/* Banda a stendardo */}
+                <div className="absolute inset-0 bg-[#0d3b66] flex items-center sm:px-14 
+          [clip-path:polygon(0%_0%,100%_0%,98%_50%,100%_100%,0%_100%,2%_50%)]">
+
+                    {/* Contenuto barra */}
+                    <div className="flex w-full justify-center md:justify-between items-center max-w-[1200px] mx-auto">
+
+                        {/* Icone */}
+                        <div className="flex gap-6 items-center flex-wrap justify-center md:justify-start">
+                            {techstack.map((tech) => {
+                                const techData = techMap[tech.toLowerCase()];
+                                if (!techData) return null;
+                                const { Icon, label, size } = techData;
+                                return (
+                                    <div key={tech} className="flex items-center sm:gap-2">
+                                        <Icon width={size} height={size} />
+                                        <div className="hidden sm:inline text-lg text-white">
+                                            {label}
+                                        </div>
+                                    </div>
+                                );
+                            })}
                         </div>
-                    );
-                })}
+
+                        {/* Links (solo desktop dentro barra) */}
+                        {(code || website || download) && (
+                            <div className="hidden md:flex gap-6 items-center">
+                                {code && linkcode && (
+                                    <a href={linkcode} target="_blank" rel="noreferrer">
+                                        <GithubWhite />
+                                    </a>
+                                )}
+                                {website && linkwebsite && (
+                                    <a href={linkwebsite} target="_blank" rel="noreferrer">
+                                        <LiveWhite width={35} height={35} />
+                                    </a>
+                                )}
+                                {download && downloadfile && fileName && (
+                                    <DownloadProject
+                                        fileDir={downloadfile}
+                                        fileName={fileName}
+                                        color={"white"}
+                                    />
+                                )}
+                            </div>
+                        )}
+                    </div>
+                </div>
             </div>
 
+            {/* Links (solo mobile sotto barra) */}
             {(code || website || download) && (
-                <div className="mt-6 flex gap-6 items-center justify-center flex-wrap">
+                <div className="flex md:hidden gap-6 items-center justify-center flex-wrap mt-4">
                     {code && linkcode && (
-                        <a
-                            href={linkcode}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <Github width={35} height={35} />
+                        <a href={linkcode} target="_blank" rel="noreferrer">
+                            <Github />
                         </a>
                     )}
-
                     {website && linkwebsite && (
-                        <a
-                            href={linkwebsite}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
+                        <a href={linkwebsite} target="_blank" rel="noreferrer">
                             <Live width={35} height={35} />
                         </a>
                     )}
-
                     {download && downloadfile && fileName && (
-                        <DownloadProject fileDir={downloadfile} fileName={fileName} />
+                        <DownloadProject fileDir={downloadfile} fileName={fileName} color={"black"} />
                     )}
                 </div>
             )}
         </div>
     );
 };
+
+
 
 export default TechStack;

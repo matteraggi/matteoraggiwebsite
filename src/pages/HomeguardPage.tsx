@@ -34,7 +34,7 @@ const HomeguardPage = () => {
             <div className="max-w-[1085px] mx-auto px-10">
                 <AbovethefoldSingleProject title="Homeguard - Home Security" />
                 <ImageCarousel images={imageUrls} mobile={true} />
-                <div className="flex flex-col sm:flex-row w-full mb-10 sm:gap-28">
+                <div className="flex flex-col w-full mb-10">
                     <TechStack techstack={tech}
                         linkwebsite=""
                         linkcode=""
