@@ -20,6 +20,7 @@ import StudyfarmPage from "./pages/StudyfarmPage";
 import MissionbeePage from "./pages/MissionbeePage";
 import HomeguardPage from "./pages/HomeguardPage";
 import KebabboPage from "./pages/KebabboPage";
+import IgeaxPage from "./pages/IgeaxPage";
 
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
             </div>
           }
         >
-          <Navbar /> 
+          <Navbar />
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<AboutPage />} />
@@ -60,6 +61,7 @@ function App() {
             <Route path="/homeguard" element={<HomeguardPage />} />
             <Route path="/missionbee" element={<MissionbeePage />} />
             <Route path="/kebabbo" element={<KebabboPage />} />
+            <Route path="/igeax" element={<IgeaxPage />} />
           </Routes>
           <Footer />
         </Suspense>

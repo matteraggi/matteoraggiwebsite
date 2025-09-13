@@ -17,6 +17,7 @@ import GithubWhite from "./icons/GithubWhite";
 import LiveWhite from "./icons/LiveWhite";
 import Live from "./icons/Live";
 import Github from "./icons/Github";
+import Solidity from "./icons/Solidity";
 
 const techMap: { [key: string]: { label: string; Icon: React.FC<React.SVGProps<SVGSVGElement>>, size: number } } = {
     react: { label: 'React', Icon: React, size: 35 },
@@ -33,6 +34,7 @@ const techMap: { [key: string]: { label: string; Icon: React.FC<React.SVGProps<S
     supabase: { label: 'Supabase', Icon: Supabase, size: 35 },
     swift: { label: 'Swift', Icon: Swift, size: 35 },
     reactnative: { label: 'React Native', Icon: ReactNative, size: 35 },
+    solidity: { label: 'Solidity', Icon: Solidity, size: 35 },
 };
 
 type TechStackProps = {

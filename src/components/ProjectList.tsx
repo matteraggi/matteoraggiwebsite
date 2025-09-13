@@ -72,7 +72,7 @@ const ProjectList = () => {
       />
       <PortfolioCardReverse
         heading="IgeaX"
-        route=""
+        route="/igeax"
         text="Applicazione Web per la sanificazione di ospedali. Costruita con React e contratti su Ethereum scritti in Solidity. Permette di tracciare ogni operazione di sanificazione e di verificarne l'effettiva esecuzione."
         sourceimage="../igeax/igeax.png"
         linkwebsite=""
