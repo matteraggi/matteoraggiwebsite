@@ -41,8 +41,18 @@ const HotelChcPage = () => {
                         website={false}
                         download={false}
                     />
-                    <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice.</p>
+                    <div className="w-full flex items-center justify-center rounded-lg project-text">
+                        <p className="text-justify">
+                            Questo progetto, per il quale ho sviluppato solo la parte front-end, è un depliant di presentazione Hotel creato per il gruppo Hotel CHC.
+                            <br /><br />
+                            La piattaforma ha lo scopo di mostrare a potenziali nuovi partner gli Hotel che fanno già parte del gruppo, le loro caratteristiche e i servizi offerti.
+                            <br /><br />
+                            Il front-end, costruito in react, si basa su una struttura backend interamente in cloud, su AWS, con GraphQL come linguaggio di comunicazione tra le due parti.
+                            <br /><br />
+                            La parte grafica è stata curata nei minimi dettagli, con particolare attenzione alla user experience e alla facilità di navigazione.
+                            <br /><br />
+                            Grazie allo sviluppo di un depliant web invece che di una semplice presentazione statica, è possibile aggiornare in qualsiasi momento i contenuti, aggiungere nuove funzionalità e monitorare le visite.
+                        </p>
                     </div>
                 </div>
             </div>

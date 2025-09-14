@@ -39,8 +39,23 @@ const HomeguardPage = () => {
                         website={false}
                         download={false}
                     />
-                    <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Applicazione Web per la sanificazione di ospedali. Costruita con React e contratti su Ethereum scritti in Solidity. Permette di tracciare ogni operazione di sanificazione e di verificarne l'effettiva esecuzione.</p>
+                    <div className="w-full flex items-center justify-center rounded-lg project-text">
+                        <p className="text-justify">
+                            IgeaX è una applicazione web per la sanificazione di ospedali, Invece di basarsi su registri cartacei o digitali centralizzati, IgeaX utilizza la tecnologia blockchain per garantire che ogni operazione di sanificazione sia tracciabile, immutabile e verificabile.
+                            <br /><br />
+                            L'applicazione è costruita con React per il front-end e utilizza Smart Contract su Ethereum scritti in Solidity per gestire le operazioni di sanificazione.
+                            <br /><br />
+                            La piattaforma ha una struttura molto semplice. Gli operatori autorizzati possono registrare una nuova sanificazione sia scannerizzando il qr code della stanza (un numero intero), sia inserendolo manualmente.
+                            <br /><br />
+                            La sanificazione della specifica stanza viene scritta sullo smart contract. Sarà quindi possibile verificare in qualsiasi momento quando è stata effettuata l'ultima sanificazione di una specifica stanza, e da chi.
+                            <br /><br />
+                            Nella homepage invece si possono visualizzare velocemente la lista delle stanze presenti, evidenziate con colore rosso se sono da sanificare (nessuna sanificazione nella giornata odierna) e con colore verde se già sanificate. Viene anche mostrato l'orario preciso di ultima sanificazione.
+                            <br /><br />
+                            Cliccando sulla pagina di una specifica stanza si possono vedere tutte le sanificazioni effettuate, con data, orario e operatore che l'ha effettuata.
+                            <br /><br />
+                            Chiaramente l'applicazione è una beta, ed essendo tale non è stata testata in ambiente reale ed è stata costruita in modo da funzionare completamente senza piattaforma di backoffice. Tuttavia il progetto potrebbe ricevere ulteriori sviluppi in futuro.
+
+                        </p>
                     </div>
                 </div>
             </div>

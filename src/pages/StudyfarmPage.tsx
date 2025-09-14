@@ -30,11 +30,11 @@ const StudyfarmPage = () => {
                     <TechStack techstack={tech}
                         linkwebsite=""
                         linkcode="https://github.com/matteraggi/StudyApp-react-native"
-                        downloadfile="../studyapp.apk"
-                        fileName="StudyFarm App"
+                        downloadfile=""
+                        fileName=""
                         code={true}
                         website={false}
-                        download={true}
+                        download={false}
                     />
                     <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
                         <p>Applicazione Android e iOS per la gestione delle ore di studio. Timer con ricompense monetarie spendibili nello Shop per incentivare lo studio attraverso la gamification.</p>

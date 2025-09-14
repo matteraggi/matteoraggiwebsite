@@ -36,8 +36,25 @@ const SquealerPage = () => {
                         code={true}
                         website={false}
                         download={false} />
-                    <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Un social network innovativo. Un social network delle persone, che premia chi crea contenuto valido, non chi ha followers. Quella mostrata qui è la piattaforma per Social Media Manager.</p>
+                    <div className="w-full flex items-center justify-center rounded-lg project-text">
+                        <p className="text-justify">
+                            Piattaforma sviluppata per un progetto universitario di un social network innovativo.
+                            È un social network delle persone, che premia chi crea contenuto valido, non chi ha followers.
+                            <br /><br />
+                            La piattaforma è stata sviluppata con Nextjs per il front-end, Nodejs per il back-end e MongoDB come database.
+                            <br /><br />
+                            La parte più interessante del progetto è il sistema di votazione dei post, che permette di premiare i contenuti validi e di penalizzare quelli di bassa qualità.
+                            <br /><br />
+                            Gli utenti che ricevono molti downvote perdono gradualmente la possibilità di scrivere sulla piattaforma, ricevendo un decremento di caratteri. E viceversa.
+                            <br /><br />
+                            Il progetto ha portato lo sviluppo di 3 piattaforme:
+                            <ul className="list-disc list-inside">
+                                <li>La piattaforma principale per gli utenti</li>
+                                <li>Una piattaforma per i moderatori, che permette di gestire i contenuti e gli utenti</li>
+                                <li>Una piattaforma per Social Media Manager, che permette di gestire le campagne pubblicitarie e di monitorare le performance</li>
+                            </ul>
+                            <br />
+                        </p>
                     </div>
                 </div>
             </div>

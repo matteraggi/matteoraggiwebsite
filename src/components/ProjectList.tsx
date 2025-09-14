@@ -34,7 +34,7 @@ const ProjectList = () => {
       <PortfolioCard
         heading="MissionBee"
         route="/missionbee"
-        text="Applicazione iOS in Swift sviluppata per partecipare alla Swift Student Challenge. È un gioco per bambini che insegna a rispettare l'ambiente e il ruolo delle api in esso."
+        text="Applicazione iOS in Swift sviluppata per partecipare alla Swift Student Challenge. Il suo scopo è sensibilizzare i più piccoli sul tema della sostenibilità ambientale e il ruolo delle api in esso."
         sourceimage="../missionbee/missionbee.png"
         linkwebsite=""
         linkcode=""
@@ -60,7 +60,7 @@ const ProjectList = () => {
       <PortfolioCard
         heading="Squealer"
         route="/squealer"
-        text="Un social network innovativo. Un social network delle persone, che premia chi crea contenuto valido, non chi ha followers. Quella mostrata qui è la piattaforma per Social Media Manager."
+        text="Un social network innovativo. Un social network delle persone, che premia chi crea contenuto valido, non chi ha followers."
         sourceimage="../squealer/squealer.jpeg"
         linkwebsite=""
         linkcode="https://github.com/matteraggi/avvoltoio-smm"
@@ -83,6 +83,21 @@ const ProjectList = () => {
         website={false}
         download={false}
       />
+      {/*
+      <PortfolioCard
+        heading="Study Farm"
+        route="/studyfarm"
+        text="Un'applicazione per aiutare gli studenti a gestire il loro tempo di studio, attraverso timer con ricompense e statistiche."
+        sourceimage="../studyfarm/studyfarm.png"
+        linkwebsite=""
+        linkcode="https://github.com/matteraggi/StudyApp-react-native"
+        downloadfile=""
+        fileName=""
+        code={true}
+        website={false}
+        download={false}
+      />
+      */}
     </div>
   );
 };

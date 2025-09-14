@@ -44,8 +44,20 @@ const HomeguardPage = () => {
                         website={false}
                         download={false}
                     />
-                    <div className="w-full sm:w-3/4 flex items-center justify-center rounded-lg">
-                        <p>Applicazione Android per il controllo della sicurezza domestica. Viene associata con dispositivi ESP32 (allarme, sensore per la porta, fotocamera, sensore NFC) i quali potranno essere controllati e monitorati da essa. </p>
+                    <div className="w-full flex items-center justify-center rounded-lg project-text">
+                        <p className="text-justify">
+                            Homeguard è un progetto di un sistema di sicurezza domestica innovativo basato su una applicazione Android sviluppata in Kotlin, dispositivi IoT basati su ESP32 programmati in C++ e un backend su AWS per la gestione della comunicazione tra le due parti, database e altro.
+                            Questo progetto è stato la mia tesi di laurea triennale in Informatica all'Università di Bologna.
+                            <br /><br />
+                            L'applicazione Android permette di controllare a 360 gradi lo stato di sicurezza della propria abitazione.
+                            Questo comprende: la visualizzazione e modifica dello stato dell'allarme, la visualizzazione dei record di allarmi scattati e foto in allegato, la gestione e visualizzazione (in casa o fuori) di ogni membro della casa, la recezione di notifiche push, la gestione del pin dell'allarme fisico e tanto altro.
+                            Ma la funzione più innovativa è la gestione automatica dell'allarme.
+                            <br /><br />
+                            Attraverso l'utilizzo di geofencing e accesso della posizione in tempo reale, l'applicazione è in grado di capire se ogni utente della casa è all'interno o fuori e di conseguenza attivare o disattivare l'allarme in modo automatico.
+                            Questo permette una gestione della sicurezza domestica estremamente comoda e senza pensieri.
+                            <br /><br />
+                            Ma non mi voglio dilungare eccessivamente su questo progetto in quanto, per i più interessati, è disponibile la documentazione della mia tesi di laurea sulla <a href="https://amslaurea.unibo.it/id/eprint/33412/" target="_blank" rel="noopener noreferrer">pagina dedicata dell'UniBo</a>.
+                        </p>
                     </div>
                 </div>
             </div>
