@@ -3,6 +3,7 @@ import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import SEO from "../components/blog/SEO";
+import WorkingExperience from "../components/WorkingExperience";
 
 const Homepage = () => {
   return (
@@ -18,6 +19,7 @@ const Homepage = () => {
       <Abovethefold />
       <About />
       <Portfolio />
+      <WorkingExperience />
       <Contact />
     </>
   );
