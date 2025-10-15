@@ -14,13 +14,13 @@ import BlogPage from "./pages/BlogPage";
 import CategoryPage from "./pages/CategoryPage";
 import { HelmetProvider } from "react-helmet-async";
 import { InfinitySpin } from "react-loader-spinner";
-import SquealerPage from "./pages/SquealerPage";
-import HotelChcPage from "./pages/HotelChcPage";
-import StudyfarmPage from "./pages/StudyfarmPage";
-import MissionbeePage from "./pages/MissionbeePage";
-import HomeguardPage from "./pages/HomeguardPage";
-import KebabboPage from "./pages/KebabboPage";
-import IgeaxPage from "./pages/IgeaxPage";
+import SquealerPage from "./pages/project_pages/SquealerPage";
+import HotelChcPage from "./pages/project_pages/HotelChcPage";
+import StudyfarmPage from "./pages/project_pages/StudyfarmPage";
+import HomeguardPage from "./pages/project_pages/HomeguardPage";
+import MissionbeePage from "./pages/project_pages/MissionbeePage";
+import KebabboPage from "./pages/project_pages/KebabboPage";
+import IgeaxPage from "./pages/project_pages/IgeaxPage";
 
 
 function App() {

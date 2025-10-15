@@ -1,7 +1,8 @@
-import AbovethefoldSingleProject from "../components/AbovethefoldSingleProject";
-import SEO from "../components/blog/SEO";
-import ImageCarousel from "../components/ImageCarousel";
-import TechStack from "../components/TechStack";
+import AbovethefoldSingleProject from "../../components/AbovethefoldSingleProject";
+import SEO from "../../components/blog/SEO";
+import ImageCarousel from "../../components/ImageCarousel";
+import TechStack from "../../components/TechStack";
+
 
 const KebabboPage = () => {
     const imageUrls = [

@@ -1,9 +1,10 @@
-import AbovethefoldSingleProject from "../components/AbovethefoldSingleProject";
-import SEO from "../components/blog/SEO";
-import ImageCarousel from "../components/ImageCarousel";
-import TechStack from "../components/TechStack";
+import AbovethefoldSingleProject from "../../components/AbovethefoldSingleProject";
+import SEO from "../../components/blog/SEO";
+import ImageCarousel from "../../components/ImageCarousel";
+import TechStack from "../../components/TechStack";
 
-const HomeguardPage = () => {
+
+const IgeaxPage = () => {
 
     const imageUrls = [
         '../igeax/screen-igeax-1.png',
@@ -63,4 +64,4 @@ const HomeguardPage = () => {
     );
 };
 
-export default HomeguardPage;
+export default IgeaxPage;

@@ -1,17 +1,20 @@
-import { Link } from "react-router-dom";
-
 const AbovethefoldSingleProject = (props: any) => {
+
+  const handleGoBack = () => {
+    window.history.back();
+  }
+
   return (
     <div className="flex flex-col h-[150px] sm:h-[200px] justify-center items-center relative w-full text-center">
       <div className="mt-[80px] flex h-[250px] sm:h-[400px] justify-center items-center sm:justify-start sm:items-start relative w-full text-center sm:text-left sm:gap-[50px]">
-        <Link to="/progetti" className="hidden sm:block">
+        <button onClick={handleGoBack}>
           <img
             alt="arrow-back"
             src="/arrow.svg"
             className="w-[50px] h-auto"
             loading="lazy"
           />
-        </Link>
+        </button>
         <h1 className="heading-2 whitespace-nowrap">{props.title}</h1>
         <div className="flex-1 h-[4px] bg-black hidden sm:block" />
       </div>

@@ -45,10 +45,10 @@ const ProjectList = () => {
         download={false}
       />
       <PortfolioCardReverse
-        heading="Depliant Hotel CHC"
-        route="/depliant-hotel-chc"
-        text="Depliant di presentazione Hotel per il rinomato gruppo di Hotel CHC. Vengono mostrati tutti i dati degli hotel inseriti in backoffice."
-        sourceimage="../hotelchc/chc-hotel.png"
+        heading="IgeaX"
+        route="/igeax"
+        text="Applicazione Web per la sanificazione di ospedali. Costruita con React e contratti su Ethereum scritti in Solidity. Permette di tracciare ogni operazione di sanificazione e di verificarne l'effettiva esecuzione."
+        sourceimage="../igeax/igeax.png"
         linkwebsite=""
         linkcode=""
         downloadfile=""
@@ -67,19 +67,6 @@ const ProjectList = () => {
         downloadfile=""
         fileName=""
         code={true}
-        website={false}
-        download={false}
-      />
-      <PortfolioCardReverse
-        heading="IgeaX"
-        route="/igeax"
-        text="Applicazione Web per la sanificazione di ospedali. Costruita con React e contratti su Ethereum scritti in Solidity. Permette di tracciare ogni operazione di sanificazione e di verificarne l'effettiva esecuzione."
-        sourceimage="../igeax/igeax.png"
-        linkwebsite=""
-        linkcode=""
-        downloadfile=""
-        fileName=""
-        code={false}
         website={false}
         download={false}
       />
