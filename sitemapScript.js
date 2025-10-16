@@ -1,10 +1,13 @@
 import fs from "fs";
 import { generateSitemap } from "./src/sitemapGenerator.js";
 
-// Percorso del file JSON
-const filePath = new URL(
-  "file:///Users/matteoraggi/Developer/matteoraggiwebsite/src/articles.json"
-);
+// Ricava il percorso assoluto della directory corrente
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Percorso del file JSON (relativo al progetto)
+const filePath = path.join(__dirname, "src", "articles.json");
+
 const slugArray = [];
 
 fs.readFile(filePath, "utf8", (err, data) => {
