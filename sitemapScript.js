@@ -1,8 +1,13 @@
-const fs = require("fs");
-const path = require("path");
-const { generateSitemap } = require("./src/sitemapGenerator.js");
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import { generateSitemap } from "./src/sitemapGenerator.js";
 
-// Percorso assoluto del file JSON
+// Calcola directory corrente
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Percorso file
 const filePath = path.join(__dirname, "src", "articles.json");
 const slugArray = [];
 
