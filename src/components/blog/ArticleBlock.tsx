@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import postsData from "./../../posts.json";
 import articlesData from "./../../articles.json";
 import SEO from "./SEO";
@@ -10,6 +10,7 @@ const ArticleBlock = () => {
 
   const post = postsData.posts.find((post) => post.slug === slug);
   const postInfo = articlesData.articles.find((post) => post.slug === slug);
+  const navigate = useNavigate();
 
   const sortedArticles = useMemo(() => {
     return [...articlesData.articles].sort((a, b) => {
@@ -48,14 +49,13 @@ const ArticleBlock = () => {
   return (
     <>
       <div className="padding-top-">
-        <Link to="/blog">
-          <img
-            alt="arrow-back"
-            src="/arrow.svg"
-            style={{ width: "50px", height: "auto", marginLeft: "35px" }}
-            loading="lazy"
-          />
-        </Link>
+        <img
+          alt="arrow-back"
+          src="/arrow.svg"
+          style={{ width: "50px", height: "auto", marginLeft: "35px" }}
+          loading="lazy"
+          onClick={() => navigate(-1)}
+        />
       </div>
       <SEO
         title={postInfo.title}
