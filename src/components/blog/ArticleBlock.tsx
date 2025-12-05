@@ -32,14 +32,13 @@ const ArticleBlock = () => {
     return (
       <>
         <div className="padding-top-">
-          <Link to="/blog">
-            <img
-              alt="arrow-back"
-              src="/arrow.svg"
-              style={{ width: "50px", height: "auto", marginLeft: "35px" }}
-              loading="lazy"
-            />
-          </Link>
+          <img
+            alt="arrow-back"
+            src="/arrow.svg"
+            className="back-arrow"
+            loading="lazy"
+            onClick={() => navigate(-1)}
+          />
         </div>
         <p>Questo post non esiste!</p>
       </>
@@ -52,7 +51,7 @@ const ArticleBlock = () => {
         <img
           alt="arrow-back"
           src="/arrow.svg"
-          style={{ width: "50px", height: "auto", marginLeft: "35px" }}
+          className="back-arrow"
           loading="lazy"
           onClick={() => navigate(-1)}
         />
@@ -73,7 +72,7 @@ const ArticleBlock = () => {
                 src={postInfo.image ?? "/public/fav-image.png"}
                 alt={postInfo.imageAlt ?? "image"}
                 style={{
-                  width: "70%",
+                  width: "90%",
                   height: "auto",
                   margin: "0 auto 2rem",
                   display: "block",
