@@ -4,7 +4,10 @@ import { PostBlock } from "./PostBlock";
 import SEO from "./SEO";
 
 interface Article {
-  title: string;
+  title: {
+    it: string;
+    en: string;
+  };
   date: string;
   slug: string;
   image: string;
