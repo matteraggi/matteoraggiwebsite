@@ -27,8 +27,14 @@ const Abovethefold = () => {
                 <Linkedin width="35px" height="35px" />
 
                 <Instagram width="35px" height="35px" />
-
-                <Github width="35px" height="35px" />
+                <a
+                  aria-label="github"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/matteraggi"
+                >
+                  <Github width="35px" height="35px" />
+                </a>
               </span>
             </div>
             <div rel="preload" className="hero-img"></div>

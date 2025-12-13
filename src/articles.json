@@ -1,572 +1,784 @@
 {
   "articles": [
     {
-      "title": "Devlog 9: le prime luci",
+      "title": {
+        "it": "Devlog 9: le prime luci",
+        "en": "Devlog 9: First lights"
+      },
       "date": "04-09-2025",
       "slug": "devlog-9-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog9.png",
       "imageAlt": "devlog 9 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 9 di giocoinsetti: le prime luci del gioco"
     },
     {
-      "title": "Devlog 8: tentativi di creazione tilemap e prime decorazioni",
+      "title": {
+        "it": "Devlog 8: tentativi di creazione tilemap e prime decorazioni",
+        "en": "Devlog 8: Tilemap attempts and first decorations"
+      },
       "date": "08-07-2025",
       "slug": "devlog-8-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog8.png",
       "imageAlt": "devlog 8 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 8 di giocoinsetti: tentativi di creazione tilemap e prime decorazioni"
     },
     {
-      "title": "Devlog 7: salvataggio dati e test con primo NPC",
+      "title": {
+        "it": "Devlog 7: salvataggio dati e test con primo NPC",
+        "en": "Devlog 7: Data saving and first NPC test"
+      },
       "date": "06-07-2025",
       "slug": "devlog-7-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog7.png",
       "imageAlt": "devlog 7 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 7 di giocoinsetti: salvataggio dati e test con primo NPC"
     },
     {
-      "title": "Devlog 6: animazione formica NPC",
+      "title": {
+        "it": "Devlog 6: animazione formica NPC",
+        "en": "Devlog 6: Ant NPC animation"
+      },
       "date": "05-07-2025",
       "slug": "devlog-6-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog6.png",
       "imageAlt": "devlog 6 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 6 di giocoinsetti: animazione formica NPC"
     },
     {
-      "title": "Devlog 5: dialogue manager plugin e risoluzione ridotta",
+      "title": {
+        "it": "Devlog 5: dialogue manager plugin e risoluzione ridotta",
+        "en": "Devlog 5: Dialogue Manager plugin and reduced resolution"
+      },
       "date": "04-07-2025",
       "slug": "devlog-5-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog5.png",
       "imageAlt": "devlog 5 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 5 di giocoinsetti: dialogue manager plugin e risoluzione ridotta"
     },
     {
-      "title": "Devlog 4: refactoring",
+      "title": {
+        "it": "Devlog 4: refactoring",
+        "en": "Devlog 4: Refactoring"
+      },
       "date": "03-07-2025",
       "slug": "devlog-4-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog4.png",
       "imageAlt": "devlog 4 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 4 di giocoinsetti: super refactoring"
     },
     {
-      "title": "Devlog 3: talk prompt e dialoghi",
+      "title": {
+        "it": "Devlog 3: talk prompt e dialoghi",
+        "en": "Devlog 3: Talk prompt and dialogues"
+      },
       "date": "01-07-2025",
       "slug": "devlog-3-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog3.png",
       "imageAlt": "devlog 3 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 3 di giocoinsetti: creazione prompt per parlare con NPC e gestione del dialogo"
     },
     {
-      "title": "Devlog 2: animazioni player e primi NPC",
+      "title": {
+        "it": "Devlog 2: animazioni player e primi NPC",
+        "en": "Devlog 2: Player animations and first NPCs"
+      },
       "date": "01-07-2025",
       "slug": "devlog-2-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog2.png",
       "imageAlt": "devlog 2 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 2 di giocoinsetti: creazione animazioni per il protagonista e primi NPC."
     },
     {
-      "title": "Devlog 1: tilemap e prospettiva",
+      "title": {
+        "it": "Devlog 1: tilemap e prospettiva",
+        "en": "Devlog 1: Tilemap and perspective"
+      },
       "date": "30-06-2025",
       "slug": "devlog-1-giocoinsetti",
       "image": "/foto_giocoinsetti/devlog1.png",
       "imageAlt": "devlog 1 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Devlog 1 di giocoinsetti: decisioni su tilemap, disegno libero e prospettiva."
     },
     {
-      "title": "Devlog 0: inizio",
+      "title": {
+        "it": "Devlog 0: inizio",
+        "en": "Devlog 0: Start"
+      },
       "date": "22-06-2025",
       "slug": "devlog-0-giocoinsetti",
       "image": "/foto_giocoinsetti/image3.png",
       "imageAlt": "devlog 0 gioco insetti",
-      "category": "coding"
+      "category": "coding",
+      "description": "Il primo Devlog della realizzazione del mio nuovo progetto: un gioco pixel art top-down ambientato in un mondo fantasy popolato da insetti."
     },
     {
-      "title": "Trasformare WordPress in React + Headless WordPress",
+      "title": {
+        "it": "Trasformare WordPress in React + Headless WordPress",
+        "en": "Transforming WordPress into React + Headless WordPress"
+      },
       "date": "16-03-2024",
       "slug": "headless-wordpress-react",
-      "image": "/headless-wordpress-react.png",
+      "image": "/blog/headless-wordpress-react.png",
       "imageAlt": "headless wordpress react",
-      "category": "coding"
+      "category": "coding",
+      "description": "Vuoi trasformare il tuo sito in un Headless Wordpress? Questa guida completa ti aiuterà a farlo!"
     },
     {
-      "title": "Notai disoccupati? Colpa degli Smart Contract!",
+      "title": {
+        "it": "Notai disoccupati? Colpa degli Smart Contract!",
+        "en": "Unemployed Notaries? Blame Smart Contracts!"
+      },
       "date": "11-09-2023",
       "slug": "smart-contract",
-      "image": "/smart-contract.png",
+      "image": "/blog/smart-contract.png",
       "imageAlt": "smart contract",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Cosa sono gli Smart Contract? E come funzionano? Scopriamolo insieme in questo articolo!"
     },
     {
-      "title": "Gli Exchange Decentralizzati saranno fondamentali: Ecco cosa DEVI sapere",
+      "title": {
+        "it": "Gli Exchange Decentralizzati saranno fondamentali: Ecco cosa DEVI sapere",
+        "en": "Decentralized Exchanges will be fundamental: Here is what you MUST know"
+      },
       "date": "03-09-2023",
       "slug": "exchange-decentralizzati",
-      "image": "/exchange-decentralizzati.png",
+      "image": "/blog/exchange-decentralizzati.png",
       "imageAlt": "exchange decentralizzati",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Gli Exchange Decentralizzati sono la vera essenza delle Crypto? O solo il prodotto per pochi Nerd?"
     },
     {
-      "title": "Guida ai Liquidity Pool: tutto quello che DEVI sapere",
+      "title": {
+        "it": "Guida ai Liquidity Pool: tutto quello che DEVI sapere",
+        "en": "Guide to Liquidity Pools: everything you MUST know"
+      },
       "date": "16-08-2023",
       "slug": "liquidity-pool",
-      "image": "/liquidity-pool.png",
+      "image": "/blog/liquidity-pool.png",
       "imageAlt": "liquidity pool",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "I Liquidity Pool hanno conquistato una posizione di rilievo nel mondo DeFi. Scopriamone il funzionamento e l'importanza in questo articolo!"
     },
     {
-      "title": "Top 3 Piattaforme Arbitraggio Crypto: I miei consigli personali",
+      "title": {
+        "it": "Top 3 Piattaforme Arbitraggio Crypto: I miei consigli personali",
+        "en": "Top 3 Crypto Arbitrage Platforms: My personal tips"
+      },
       "date": "12-08-2023",
       "slug": "piattaforme-arbitraggio-crypto",
-      "image": "/piattaforme-arbitraggio-crypto.png",
+      "image": "/blog/piattaforme-arbitraggio-crypto.png",
       "imageAlt": "piattaforme arbitraggio crypto",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "La scelta delle piattaforme di arbitraggio crypto è fondamentale per molti motivi: costi, funzionalità e affidabilità."
     },
     {
-      "title": "Studiare Grafici Criptovalute: i 5 Tips OBBGLIGATORI",
+      "title": {
+        "it": "Studiare Grafici Criptovalute: i 5 Tips OBBGLIGATORI",
+        "en": "Studying Cryptocurrency Charts: 5 MANDATORY Tips"
+      },
       "date": "21-07-2023",
       "slug": "studiare-grafici-criptovalute",
-      "image": "/studiare-grafici-criptovalute.png",
+      "image": "/blog/studiare-grafici-criptovalute.png",
       "imageAlt": "studiare grafici criptovalute",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Lo studio dei grafici è un mestiere molto complicato, che in pochi sanno mettere in pratica in modo profittevole. Segui questa guida per iniziare ad imparare."
     },
     {
-      "title": "2000€ al mese: Con il Mining Bitcoin Guadagno?",
+      "title": {
+        "it": "2000€ al mese: Con il Mining Bitcoin Guadagno?",
+        "en": "2000€ per month: Can I earn with Bitcoin Mining?"
+      },
       "date": "16-07-2023",
       "slug": "mining-bitcoin-guadagno",
-      "image": "/mining-bitcoin-guadagno.png",
+      "image": "/blog/mining-bitcoin-guadagno.png",
       "imageAlt": "mining bitcoin guadagno",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Si può guadagnare con il Mining? Oppure è solo un business per grosse imprese? Analizziamo i costi e i guadagni."
     },
     {
-      "title": "Cosa influenza le Criptovalute? Queste cose ti fanno perdere (o guadagnare) soldi!",
+      "title": {
+        "it": "Cosa influenza le Criptovalute? Queste cose ti fanno perdere (o guadagnare) soldi!",
+        "en": "What influences Cryptocurrencies? These things make you lose (or earn) money!"
+      },
       "date": "13-07-2023",
       "slug": "cosa-influenza-le-criptovalute",
-      "image": "/Cosa-influenza-le-Criptovalute.png",
+      "image": "/blog/Cosa-influenza-le-Criptovalute.png",
       "imageAlt": "cosa influenza le criptovalute",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Le Crypto si spostano molto velocemente sul mercato, e questo lo sappiamo tutti. Ma quali sono i fattori che le influenzano di più?"
     },
     {
-      "title": "Supply Crypto: Il segreto sul prezzo delle Criptovalute",
+      "title": {
+        "it": "Supply Crypto: Il segreto sul prezzo delle Criptovalute",
+        "en": "Crypto Supply: The secret about Cryptocurrency prices"
+      },
       "date": "09-07-2023",
       "slug": "supply-crypto",
-      "image": "/supply-crypto.png",
+      "image": "/blog/supply-crypto.png",
       "imageAlt": "supply crypto",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Uno degli elementi di maggiore rilevanza per una Criptovaluta è la sua supply. Scopri perché e i suoi ruoli."
     },
     {
-      "title": "Come creare una Criptovaluta: cosa è necessario sapere",
+      "title": {
+        "it": "Come creare una Criptovaluta: cosa è necessario sapere",
+        "en": "How to create a Cryptocurrency: what you need to know"
+      },
       "date": "06-07-2023",
       "slug": "come-creare-una-criptovaluta",
-      "image": "/come-creare-una-criptovaluta.png",
+      "image": "/blog/come-creare-una-criptovaluta.png",
       "imageAlt": "come creare una criptovaluta",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Vuoi creare una tua Criptovaluta? Ti spiego come fare in tempo Record!"
     },
     {
-      "title": "Scopri 5 modi per Guadagnare Crypto Gratis",
+      "title": {
+        "it": "Scopri 5 modi per Guadagnare Crypto Gratis",
+        "en": "Discover 5 ways to Earn Free Crypto"
+      },
       "date": "03-07-2023",
       "slug": "guadagnare-crypto-gratis",
-      "image": "/guadagnare-crypto-gratis.png",
+      "image": "/blog/guadagnare-crypto-gratis.png",
       "imageAlt": "guadagnare crypto gratis",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Si possono ottenere delle Crypto in modo gratuito? Sì, è possibile. Scopri tutti i metodi migliori."
     },
     {
-      "title": "Cosa posso comprare con i Bitcoin?",
+      "title": {
+        "it": "Cosa posso comprare con i Bitcoin?",
+        "en": "What can I buy with Bitcoin?"
+      },
       "date": "01-07-2023",
       "slug": "cosa-posso-comprare-con-i-bitcoin",
-      "image": "/cosa-posso-comprare-con-bitcoin.png",
+      "image": "/blog/cosa-posso-comprare-con-bitcoin.png",
       "imageAlt": "cosa posso comprare con i bitcoin",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Al giorno d'oggi i Bitcoin sono sempre più conosciuti. Ma si possono utilizzare per comprare beni nella vita di tutti i giorni?"
     },
     {
-      "title": "Perché le Criptovalute saranno rilevanti in futuro",
+      "title": {
+        "it": "Perché le Criptovalute saranno rilevanti in futuro",
+        "en": "Why Cryptocurrencies will be relevant in the future"
+      },
       "date": "27-06-2023",
       "slug": "criptovalute-futuro",
-      "image": "/criptovalute-futuro.png",
+      "image": "/blog/criptovalute-futuro.png",
       "imageAlt": "criptovalute futuro",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Le Criptovalute saranno davvero rilevanti in futuro? Saperlo è praticamente impossibile, ma possiamo fare le nostre ipotesi."
     },
     {
-      "title": "Migliori Applicazioni Criptovalute: La Top 3",
+      "title": {
+        "it": "Migliori Applicazioni Criptovalute: La Top 3",
+        "en": "Best Cryptocurrency Apps: The Top 3"
+      },
       "date": "16-06-2023",
       "slug": "applicazioni-criptovalute",
-      "image": "/migliori-applicazione-criptovalute.png",
+      "image": "/blog/migliori-applicazione-criptovalute.png",
       "imageAlt": "migliori applicazioni criptovalute",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Ci sono applicazioni che permettono l'acquisto di Criptovalute direttamente dal proprio Smartphone. Scopriamo quali sono le migliori."
     },
     {
-      "title": "I Token cosa sono? Scopri 7 tipi differenti",
+      "title": {
+        "it": "I Token cosa sono? Scopri 7 tipi differenti",
+        "en": "What are Tokens? Discover 7 different types"
+      },
       "date": "05-06-2023",
       "slug": "token-cosa-sono",
-      "image": "/token-cosa-sono.png",
+      "image": "/blog/token-cosa-sono.png",
       "imageAlt": "token cosa sono",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Cos'è un token? E quali sono le differenze con delle \"vere\" Crypto? Scoprilo ora."
     },
     {
-      "title": "Il miglior libro sulle Criptovalute? Guida 2023",
+      "title": {
+        "it": "Il miglior libro sulle Criptovalute? Guida 2023",
+        "en": "The best book on Cryptocurrencies? 2023 Guide"
+      },
       "date": "03-06-2023",
       "slug": "libro-sulle-criptovalute",
-      "image": "/libro-criptovalute.png",
+      "image": "/blog/libro-criptovalute.png",
       "imageAlt": "libro criptovalute",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Quali sono i libri migliori per informarsi sulle Criptovalute? Una lista dei più validi."
     },
     {
-      "title": "Migliori Wallet Crypto nel 2023: Top 4",
+      "title": {
+        "it": "Migliori Wallet Crypto nel 2023: Top 4",
+        "en": "Best Crypto Wallets in 2023: Top 4"
+      },
       "date": "26-05-2023",
       "slug": "migliori-wallet-crypto",
-      "image": "/migliori-wallet-crypto.png",
+      "image": "/blog/migliori-wallet-crypto.png",
       "imageAlt": "migliori wallet crypto",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "I portafogli di Criptovalute sono fondamentali per navigare in questo mondo, e utilizzarne uno sicuro è essenziale. Scopri quali sono i migliori Wallet Crypto."
     },
     {
-      "title": "Gli NFT non sono quello che pensi: scopri i reali utilizzi",
+      "title": {
+        "it": "Gli NFT non sono quello che pensi: scopri i reali utilizzi",
+        "en": "NFTs aren't what you think: discover real use cases"
+      },
       "date": "15-05-2023",
       "slug": "nft-reali-utilizzi",
-      "image": "/gli-nft-non-sono-quello-che-pensi.png",
+      "image": "/blog/gli-nft-non-sono-quello-che-pensi.png",
       "imageAlt": "nft reali utilizzi",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Gli NFT sono stati una bolla, questo è certo. Ma la tecnologia sottostante non è morta affatto. Quali potrebbero essere i reali utilizzi?"
     },
     {
-      "title": "Conviene Investire in Criptovalute? 1 domanda per capirlo",
+      "title": {
+        "it": "Conviene Investire in Criptovalute? 1 domanda per capirlo",
+        "en": "Is it worth Investing in Crypto? 1 question to understand it"
+      },
       "date": "08-05-2023",
       "slug": "conviene-investire-in-criptovalute",
-      "image": "/conviene-investire-in-crypto.png",
+      "image": "/blog/conviene-investire-in-crypto.png",
       "imageAlt": "conviene investire in criptovalute",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Conviene davvero investire in queste famosissime Criptovalute? Bisogna fare numerose cosniderazioni..."
     },
     {
-      "title": "Devi Investire 1000 Euro in Bitcoin: ecco perché",
+      "title": {
+        "it": "Devi Investire 1000 Euro in Bitcoin: ecco perché",
+        "en": "You should Invest 1000 Euro in Bitcoin: here is why"
+      },
       "date": "01-05-2023",
       "slug": "investire-1000-euro-in-bitcoin",
-      "image": "/investire-1000-euro-in-bitcoin.png",
+      "image": "/blog/investire-1000-euro-in-bitcoin.png",
       "imageAlt": "investire 1000 euro in bitcoin",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Come si investe in Bitcoin? E quanto si può guadagnare? Una piccola guida, ma completa."
     },
     {
-      "title": "Investire in Criptovalute: Scopri come iniziare Step by Step",
+      "title": {
+        "it": "Investire in Criptovalute: Scopri come iniziare Step by Step",
+        "en": "Investing in Cryptocurrencies: Discover how to start Step by Step"
+      },
       "date": "14-04-2023",
       "slug": "investire-in-criptovalute",
-      "image": "/investire-in-criptovalute.png",
+      "image": "/blog/investire-in-criptovalute.png",
       "imageAlt": "investire in criptovalute",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "La guida completa all'investimento in Criptovalute. Come iniziare, cosa sono, come proteggere i tuoi asset e tanto altro."
     },
     {
-      "title": "Investire in bitcoin | La Guida Completa 2023",
+      "title": {
+        "it": "Investire in bitcoin | La Guida Completa 2023",
+        "en": "Investing in Bitcoin | The Complete Guide 2023"
+      },
       "date": "07-04-2023",
       "slug": "investire-in-bitcoin",
-      "image": "/investire-in-bitcoin-guida.png",
+      "image": "/blog/investire-in-bitcoin-guida.png",
       "imageAlt": "investire in bitcoin",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Investire in Bitcoin. Tutto ciò che devi sapere prima di iniziare. "
     },
     {
-      "title": "Il Layer 1 nelle Crypto: qual’è il suo ruolo?",
+      "title": {
+        "it": "Il Layer 1 nelle Crypto: qual’è il suo ruolo?",
+        "en": "Layer 1 in Crypto: what is its role?"
+      },
       "date": "27-03-2023",
       "slug": "layer-1-crypto",
-      "image": "/layer-1-crypto.png",
+      "image": "/blog/layer-1-crypto.png",
       "imageAlt": "layer-1-crypto",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Cos'è il primo Layer nell'infrastruttura di una rete Blockchain di una Criptovaluta?"
     },
     {
-      "title": "Security Token: Cosa sono e qual’è la loro utilità",
+      "title": {
+        "it": "Security Token: Cosa sono e qual’è la loro utilità",
+        "en": "Security Tokens: What are they and what is their utility"
+      },
       "date": "23-03-2023",
       "slug": "security-token",
-      "image": "/security-token.png",
+      "image": "/blog/security-token.png",
       "imageAlt": "security-token",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "I Token sono divisi in più categoria, una di esse sono i Security Token. Forse i più rilevanti tra tutti al momento."
     },
     {
-      "title": "Il Rug Pull: Cos’è e Come puoi riconoscerlo",
+      "title": {
+        "it": "Il Rug Pull: Cos’è e Come puoi riconoscerlo",
+        "en": "Rug Pull: What it is and How to recognize it"
+      },
       "date": "20-03-2023",
       "slug": "rug-pull",
-      "image": "/rug-pull.png",
+      "image": "/blog/rug-pull.png",
       "imageAlt": "rug-pull",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Il Rug Pull è una truffa molto diffusa nel mondo delle criptovalute. Scopri come difenderti."
     },
     {
-      "title": "Come fare l’Analisi Tecnica di un grafico | Guida Trading Base",
+      "title": {
+        "it": "Come fare l’Analisi Tecnica di un grafico | Guida Trading Base",
+        "en": "How to do Technical Analysis of a chart | Basic Trading Guide"
+      },
       "date": "13-03-2023",
       "slug": "guida-trading-base",
-      "image": "/guida-trading.png",
+      "image": "/blog/guida-trading.png",
       "imageAlt": "guida trading base",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Una Guida di Base per iniziare con il Trading e l'Analisi Tecnica dei grafici finanziari."
     },
     {
-      "title": "Come Creare un Portafoglio Crypto | Guida Completa",
+      "title": {
+        "it": "Come Creare un Portafoglio Crypto | Guida Completa",
+        "en": "How to Create a Crypto Portfolio | Complete Guide"
+      },
       "date": "27-02-2023",
       "slug": "creare-un-portafoglio-crypto",
-      "image": "/creare-un-portafoglio-crypto-guida.png",
+      "image": "/blog/creare-un-portafoglio-crypto-guida.png",
       "imageAlt": "creare un portafoglio crypto",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Come si crea un portafoglio Crypto? Ecco i consigli per costruire un portafoglio bilanciato e performante nel tempo."
     },
     {
-      "title": "BitGet Recensione: La Piattaforma di Copy Trading Numero 1",
+      "title": {
+        "it": "BitGet Recensione: La Piattaforma di Copy Trading Numero 1",
+        "en": "BitGet Review: The Number 1 Copy Trading Platform"
+      },
       "date": "23-01-2023",
       "slug": "bitget-recensione",
-      "image": "/bitget-recensione.jpg",
+      "image": "/blog/bitget-recensione.jpg",
       "imageAlt": "bitget recensione",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "BitGet può essere un'ottima soluzione per chi vuole fare trading di criptovalute. Scopriamo insieme le caratteristiche e i servizi offerti."
     },
     {
-      "title": "Cold Wallet: Tutto quello che c’è da sapere",
+      "title": {
+        "it": "Cold Wallet: Tutto quello che c’è da sapere",
+        "en": "Cold Wallet: Everything you need to know"
+      },
       "date": "16-01-2023",
       "slug": "cold-wallet",
-      "image": "/cold-wallet.jpg",
+      "image": "/blog/cold-wallet.jpg",
       "imageAlt": "cold wallet",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "I Cold Wallet sono i veri Wallet? Non bisogna usare Hot Wallet? È tutto vero? Scopriamo insieme tutto quello che c'è da sapere sui Cold Wallet."
     },
     {
-      "title": "Ha senso Minare DogeCoin?",
+      "title": {
+        "it": "Ha senso Minare DogeCoin?",
+        "en": "Does it make sense to Mine DogeCoin?"
+      },
       "date": "22-12-2022",
       "slug": "minare-dogecoin",
-      "image": "/Minare-Dogecoin.jpg",
+      "image": "/blog/Minare-Dogecoin.jpg",
       "imageAlt": "minare dogecoin",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Ha davvero senso Minare Dogecoin? Perché sì, incredibile ma si può fare."
     },
     {
-      "title": "Come Creare NFT Gratis in 10 minuti",
+      "title": {
+        "it": "Come Creare NFT Gratis in 10 minuti",
+        "en": "How to Create Free NFTs in 10 minutes"
+      },
       "date": "12-12-2022",
       "slug": "come-creare-nft-gratis",
-      "image": "/come-creare-NFT-gratis.jpg",
+      "image": "/blog/come-creare-NFT-gratis.jpg",
       "imageAlt": "come creare nft gratis",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Come creare NFT gratis? Ecco la guida completa per creare un NFT senza spendere nulla."
     },
     {
-      "title": "Cosa sono i Futures Crypto: Trading Criptovalute",
+      "title": {
+        "it": "Cosa sono i Futures Crypto: Trading Criptovalute",
+        "en": "What are Crypto Futures: Cryptocurrency Trading"
+      },
       "date": "05-12-2022",
       "slug": "cosa-sono-i-futures-crypto",
-      "image": "/Cosa-sono-i-Futures-Crypto.jpg",
+      "image": "/blog/Cosa-sono-i-Futures-Crypto.jpg",
       "imageAlt": "cosa sono i futures crypto",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "I Futures esistono anche per il mondo Crypto. A cosa possono essere utili? E quali sono le vere differenze con altre soluzioni?"
     },
     {
-      "title": "Blockchain Investire: I migliori 6 metodi",
+      "title": {
+        "it": "Blockchain Investire: I migliori 6 metodi",
+        "en": "Blockchain Investing: The best 6 methods"
+      },
       "date": "23-11-2022",
       "slug": "blockchain-investire",
-      "image": "/blockchain-investire-scaled.jpg",
+      "image": "/blog/blockchain-investire-scaled.jpg",
       "imageAlt": "blockchain investire",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Come investire in Blockchain? Quali sono i migliori metodi per guadagnare con questa tecnologia? Scopriamolo insieme."
     },
     {
-      "title": "Cos’è il Trilemma Blockchain? Le 6 migliori soluzioni",
+      "title": {
+        "it": "Cos’è il Trilemma Blockchain? Le 6 migliori soluzioni",
+        "en": "What is the Blockchain Trilemma? The 6 best solutions"
+      },
       "date": "14-11-2022",
       "slug": "trilemma-blockchain",
-      "image": "/Trilemma-Blockchain-scaled.jpg",
+      "image": "/blog/Trilemma-Blockchain-scaled.jpg",
       "imageAlt": "trilemma blockchain",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Il dilemma più grosso che da sempre attanaglia questa nuova tecnologia. Verrà mai risolto davvero?"
     },
     {
-      "title": "PAC Criptovalute Tutorial: cos’è e come crearlo",
+      "title": {
+        "it": "PAC Criptovalute Tutorial: cos’è e come crearlo",
+        "en": "Crypto DCA Tutorial: what it is and how to create it"
+      },
       "date": "07-11-2022",
       "slug": "pac-criptovalute",
-      "image": "/PAC-CRIPTOVALUTE-scaled.jpg",
+      "image": "/blog/PAC-CRIPTOVALUTE-scaled.jpg",
       "imageAlt": "pac criptovalute",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Come fare un PAC sulle Criptovalute. La soluzione migliore se investi per il tuo futuro a lungo termine e se credi che le Crypto possano avere un ruolo importante."
     },
     {
-      "title": "Come creare una crypto in 10 minuti: Tutorial completo",
+      "title": {
+        "it": "Come creare una crypto in 10 minuti: Tutorial completo",
+        "en": "How to create a crypto in 10 minutes: Complete Tutorial"
+      },
       "date": "31-10-2022",
       "slug": "come-creare-una-crypto",
-      "image": "/Come-creare-una-crypto.jpg",
+      "image": "/blog/Come-creare-una-crypto.jpg",
       "imageAlt": "come creare una crypto",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Comi si può creare una vera Criptovaluta? Ecco come farlo senza scrivere codice!"
     },
     {
-      "title": "Come investire in crypto da minorenni: Guida Definitiva (2023)",
+      "title": {
+        "it": "Come investire in crypto da minorenni: Guida Definitiva (2023)",
+        "en": "How to invest in crypto as a minor: Ultimate Guide (2023)"
+      },
       "date": "24-10-2022",
       "slug": "come-investire-in-crypto-da-minorenni",
-      "image": "/Come-investire-in-Criptovalute-da-minorenni.jpg",
+      "image": "/blog/Come-investire-in-Criptovalute-da-minorenni.jpg",
       "imageAlt": "come investire in criptovalute da minorenni",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Sei minorenne e vuoi investire in Crypto? Le Criptovalute sono state create per essere utilizzate da tutti, senza limiti di età, di nazionalità o di reddito. Ecco come fare!"
     },
     {
-      "title": "Terminologia Crypto: I 34 termini che non puoi non sapere",
+      "title": {
+        "it": "Terminologia Crypto: I 34 termini che non puoi non sapere",
+        "en": "Crypto Terminology: 34 terms you must know"
+      },
       "date": "17-10-2022",
       "slug": "terminologia-crypto",
-      "image": "/terminologia-crypto.jpg",
+      "image": "/blog/terminologia-crypto.jpg",
       "imageAlt": "terminologia crypto",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "I termini più usati nel mondo Crypto. Una guida per capirci qualcosa in più"
     },
     {
-      "title": "NFT e Metaverso: perchè sono collegati?",
+      "title": {
+        "it": "NFT e Metaverso: perchè sono collegati?",
+        "en": "NFT and Metaverse: why are they connected?"
+      },
       "date": "25-04-2022",
       "slug": "nft-e-metaverso-collegati",
-      "image": "/nft-metaverso.jpg",
+      "image": "/blog/nft-metaverso.jpg",
       "imageAlt": "nft metaverso",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "In che modo gli NFT e il Metaverso sono collegati? Tecnologie divergenti? Scopri perché!"
     },
     {
-      "title": "NFT Gratis: i 4 metodi migliori per ottenerli",
-      "date": "23-04-2022",
-      "slug": "nft-gratis",
-      "image": "/nft-gratis.jpg",
-      "imageAlt": "nft gratis",
-      "category": "blockchain"
-    },
-    {
-      "title": "Web 3.0 Dapps: cosa sono le applicazioni decentralizzate",
+      "title": {
+        "it": "Web 3.0 Dapps: cosa sono le applicazioni decentralizzate",
+        "en": "Web 3.0 Dapps: what are decentralized applications"
+      },
       "date": "27-02-2022",
       "slug": "web-3-0-dapps",
-      "image": "/Web-3.0-Dapps.jpg",
+      "image": "/blog/Web-3.0-Dapps.jpg",
       "imageAlt": "web 3.0 dapps",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Le Applicazioni Decentralizzate popolano il Web 3.0. Una nuova evoluzione di Internet per come lo conosciamo. Resta al passo e scopri cosa sono."
     },
     {
-      "title": "10 esempi di Intelligenza Artificiale nella vita quotidiana [2024]",
+      "title": {
+        "it": "10 esempi di Intelligenza Artificiale nella vita quotidiana [2024]",
+        "en": "10 examples of Artificial Intelligence in daily life [2024]"
+      },
       "date": "25-02-2022",
       "slug": "intelligenza-artificiale-nella-vita-quotidiana",
-      "image": "/Intelligenza-Artificiale-nella-vita-quotidiana.jpg",
+      "image": "/blog/Intelligenza-Artificiale-nella-vita-quotidiana.jpg",
       "imageAlt": "intelligenza artificiale nella vita quotidiana",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "L'intelligenza artificiale viene già applicata e utilizzata per oggetti che ci circondano? La risposta è sì, scopri dove ci è già utile."
     },
     {
-      "title": "L’Internet delle cose è già tra di noi: Web 3.0",
+      "title": {
+        "it": "L’Internet delle cose è già tra di noi: Web 3.0",
+        "en": "The Internet of Things is already among us: Web 3.0"
+      },
       "date": "20-02-2022",
       "slug": "internet-delle-cose",
-      "image": "/internet-delle-cose.png",
+      "image": "/blog/internet-delle-cose.png",
       "imageAlt": "internet delle cose",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "L'IoT è una branchia dell'informatica in grandissima espansione negli ultimi anni. Una rivoluzione che cambierà totalmente il nostro stile di vita nei prossimi anni!"
     },
     {
-      "title": "Cos’è un Motore di Ricerca? Imparalo facilmente",
+      "title": {
+        "it": "Cos’è un Motore di Ricerca? Imparalo facilmente",
+        "en": "What is a Search Engine? Learn it easily"
+      },
       "date": "15-02-2022",
       "slug": "motore-di-ricerca-cos-e",
-      "image": "/Che-cose-un-motore-di-ricerca.png",
+      "image": "/blog/Che-cose-un-motore-di-ricerca.png",
       "imageAlt": "che cos'è un motore di ricerca",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Cos'è veramente un motore di ricerca? Scoprilo adesso!"
     },
     {
-      "title": "Web 4.0: tutta la verità sulla sua esistenza",
+      "title": {
+        "it": "Web 4.0: tutta la verità sulla sua esistenza",
+        "en": "Web 4.0: the whole truth about its existence"
+      },
       "date": "12-02-2022",
       "slug": "web-4-0",
-      "image": "/Web-4.0.png",
+      "image": "/blog/Web-4.0.png",
       "imageAlt": "web 4.0",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Il Web 4.0 esiste? O è solo un'altro nome per indicare sempre la stessa cosa?"
     },
     {
-      "title": "Web 2.0: il web dinamico, la prima rivoluzione di Internet",
+      "title": {
+        "it": "Web 2.0: il web dinamico, la prima rivoluzione di Internet",
+        "en": "Web 2.0: the dynamic web, the first Internet revolution"
+      },
       "date": "11-02-2022",
       "slug": "web-2-0",
-      "image": "/web-2.0.png",
+      "image": "/blog/web-2.0.png",
       "imageAlt": "web 2.0",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Cos'è e cosa è stato il Web 2.0. La più grande rivoluzione del mondo moderno e della nostra società."
     },
     {
-      "title": "Web 1.0: web statico, l’antenato dell’internet di oggi",
+      "title": {
+        "it": "Web 1.0: web statico, l’antenato dell’internet di oggi",
+        "en": "Web 1.0: static web, the ancestor of today's internet"
+      },
       "date": "07-02-2022",
       "slug": "web-1-0",
-      "image": "/web-1.0.png",
+      "image": "/blog/web-1.0.png",
       "imageAlt": "web 1.0",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Il Primo web, ciò che ha creato tutto quello che oggi possiamo utilizzare su Internet. Il Web 1.0 è stato il primo passo verso la rivoluzione digitale."
     },
     {
-      "title": "Collezione da 10000 NFT: il Tutorial completo per crearla",
+      "title": {
+        "it": "Collezione da 10000 NFT: il Tutorial completo per crearla",
+        "en": "10000 NFT Collection: The Complete Tutorial to create it"
+      },
       "date": "02-01-2022",
       "slug": "come-creare-collezione-nft",
-      "image": "/10000-nft.webp",
+      "image": "/blog/10000-nft.webp",
       "imageAlt": "collezione da 10000 nft",
-      "category": "nft-metaverso"
+      "category": "nft-metaverso",
+      "description": "Come puoi creare una tua collezione di arte digitale? Scopri come crearne 10000!"
     },
     {
-      "title": "Web 3.0: cosa sono gli Unstoppable Domains",
-      "date": "24-12-2021",
-      "slug": "unstoppable-domains",
-      "image": "/unstoppable-domains.png",
-      "imageAlt": "unstopable domains",
-      "category": "blockchain"
-    },
-    {
-      "title": "I 9 migliori libri finanza personale da leggere assolutamente [2023]",
+      "title": {
+        "it": "I 9 migliori libri finanza personale da leggere assolutamente [2023]",
+        "en": "The 9 best personal finance books to read absolutely [2023]"
+      },
       "date": "16-12-2021",
       "slug": "libri-finanza-personale",
-      "image": "/Finanza-Personale-I-migliori-libri.jpg",
+      "image": "/blog/Finanza-Personale-I-migliori-libri.jpg",
       "imageAlt": "finanza personale i migliori libri",
-      "category": "finanza-personale"
+      "category": "finanza-personale",
+      "description": "I migliori libri per iniziare a leggere di Finanza Personale. Ecco quali sono i miei consigli."
     },
     {
-      "title": "Web 3.0 tutti i segreti: la guida definitiva",
+      "title": {
+        "it": "Web 3.0 tutti i segreti: la guida definitiva",
+        "en": "Web 3.0 all secrets: the definitive guide"
+      },
       "date": "15-12-2021",
       "slug": "web3",
-      "image": "/WEB-3.0.png",
+      "image": "/blog/WEB-3.0.png",
       "imageAlt": "web 3.0",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Il Web 3.o è la nuova evoluzione del Web. Scopri cosa cambierà e come funzionerà. Ecco cosa devi sapere."
     },
     {
-      "title": "Revolut recensione: il miglior conto online?",
-      "date": "13-12-2021",
-      "slug": "revolut-recensione",
-      "image": "/revolut-migliori-carte-di-credito.png",
-      "imageAlt": "revolut migliori carte di credito",
-      "category": "finanza-personale"
-    },
-    {
-      "title": "Decentraland Crypto: cos’è e come funziona – CryptoExplorer",
-      "date": "08-12-2021",
-      "slug": "decentraland",
-      "image": "/Decentraland-cose-e-come-funziona.png",
-      "imageAlt": "Decentraland cos’è e come funziona",
-      "category": "blockchain"
-    },
-    {
-      "title": "Ecco quali sono i Migliori Exchange Crypto",
+      "title": {
+        "it": "Ecco quali sono i Migliori Exchange Crypto",
+        "en": "Here are the Best Crypto Exchanges"
+      },
       "date": "29-11-2021",
       "slug": "migliori-exchange-crypto",
-      "image": "/Migliori-Exchange-di-Criptovalute.png",
+      "image": "/blog/Migliori-Exchange-di-Criptovalute.png",
       "imageAlt": "migliori exchange di criptovalute",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "I migliori exchange di criptovalute. Non farti fregare da alti costi o da piattaforme poco sicure. Scopri quali sono i migliori exchange di criptovalute."
     },
     {
-      "title": "Cos’è Metamask? Ecco perché è l’Hot Wallet numero 1",
+      "title": {
+        "it": "Cos’è Metamask? Ecco perché è l’Hot Wallet numero 1",
+        "en": "What is Metamask? Here's why it's the #1 Hot Wallet"
+      },
       "date": "26-11-2021",
       "slug": "metamask",
-      "image": "/metamask-cose-e-come-funziona.png",
+      "image": "/blog/metamask-cose-e-come-funziona.png",
       "imageAlt": "metmask cos’è e come funziona",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Metamask è una salvezza quando si tratta di spostare e utilizzare Crypto sul Web. Scopri come si usa e come funziona."
     },
     {
-      "title": "Le Criptovalute sono il futuro",
+      "title": {
+        "it": "Le Criptovalute sono il futuro",
+        "en": "Cryptocurrencies are the future"
+      },
       "date": "24-11-2021",
       "slug": "criptovalute-sono-il-futuro",
-      "image": "/criptovalute-futuro.png",
+      "image": "/blog/criptovalute-futuro.png",
       "imageAlt": "criptovalute futuro",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Le Criptovalute sono il futuro? Scopriamo insieme se è vero e come possiamo capirlo."
     },
     {
-      "title": "Opensea come funziona: la miglior piattaforma per gli NFT",
+      "title": {
+        "it": "Opensea come funziona: la miglior piattaforma per gli NFT",
+        "en": "How Opensea works: the best platform for NFTs"
+      },
       "date": "24-11-2021",
       "slug": "opensea-come-funziona",
-      "image": "/Come-Funziona-Opensea.png",
+      "image": "/blog/Come-Funziona-Opensea.png",
       "imageAlt": "come funziona opensea",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "In questo articolo approfondiremo il funzionamento della piattaforma più utilizzata del Web 3.0 per la compravendita di NFT: Opensea."
     },
     {
-      "title": "NFT: cosa sono e perché nessuno li capisce",
+      "title": {
+        "it": "NFT: cosa sono e perché nessuno li capisce",
+        "en": "NFTs: what they are and why nobody understands them"
+      },
       "date": "22-11-2021",
       "slug": "nft",
-      "image": "/NFT-cosa-sono.webp",
+      "image": "/blog/NFT-cosa-sono.webp",
       "imageAlt": "nft cosa sono",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Gli NFT sono un argomento molto discusso ultimamente, ma cosa sono veramente e come fanno ad avere un valore? Andiamo oltre all'arte digitale."
     },
     {
-      "title": "The sandbox come funziona: innovazione e avanguardia – CryptoExplorer",
-      "date": "20-11-2021",
-      "slug": "the-sandbox",
-      "image": "/the-sandbox-wallpaper.jpg",
-      "imageAlt": "the sandbox come funziona",
-      "category": "blockchain"
-    },
-    {
-      "title": "Criptovalute dove conservarle: Hard wallet o exchange",
+      "title": {
+        "it": "Criptovalute dove conservarle: Hard wallet o exchange",
+        "en": "Where to store Cryptocurrencies: Hard wallet or exchange"
+      },
       "date": "18-11-2021",
       "slug": "dove-conservare-criptovalute",
-      "image": "/dove-conservare-criptovalute.png",
+      "image": "/blog/dove-conservare-criptovalute.png",
       "imageAlt": "dove conservare criptovalute",
-      "category": "blockchain"
-    },
-    {
-      "title": "Il metaverso segnerà la fine dell’umanità?",
-      "date": "16-11-2021",
-      "slug": "metaverso",
-      "image": "/Il-Metaverso-segnera-la-fine-dellUmanita.png",
-      "imageAlt": "il metaverso segnerà la fine dell’umanità",
-      "category": "blockchain"
+      "category": "blockchain",
+      "description": "Dove conservare le proprie criptovalute? Ecco i migliori Wallet virtuali e fisici per tenere al sicuro i tuoi investimenti."
     }
   ]
 }

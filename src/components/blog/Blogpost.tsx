@@ -2,12 +2,16 @@ import { PostBlock } from "./PostBlock";
 import articlesData from "./../../articles.json";
 
 interface Article {
-  title: string;
+  title: {
+    it: string;
+    en: string;
+  };
   date: string;
   slug: string;
   image: string;
   imageAlt: string;
   category: string | null;
+  description?: string;
 }
 
 interface ArticlesData {

@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 
-export const PostBlock = ({ post }: { post: any }) => {
+export const PostBlock = ({ post, lang = 'it' }: { post: any, lang?: string }) => {
+
+  const title = typeof post.title === 'object'
+    ? (post.title[lang] || post.title['it'])
+    : post.title;
+
   return (
     <div className="article-box">
       <Link to={`/blog/${post.slug}`}>
@@ -14,7 +19,9 @@ export const PostBlock = ({ post }: { post: any }) => {
         </div>
       </Link>
       <Link to={`/blog/${post.slug}`} className="article-content">
-        <h3 className="article-header">{post.title}</h3>
+
+        <h3 className="article-header">{title}</h3>
+
         <p className="article-date">{post.date.slice(0, 10)}</p>
       </Link>
     </div>

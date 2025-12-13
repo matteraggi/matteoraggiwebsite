@@ -17,6 +17,17 @@ p {
   }
 }
 
+.lang-btn {
+  padding-right: 50px;
+  background: none;
+  border: none;
+  display: flex;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
 .project-text p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
@@ -96,6 +107,11 @@ p {
   }
 
   .post-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .post-content li {
     font-size: 18px;
     line-height: 1.6;
   }
@@ -1063,11 +1079,11 @@ footer {
 
 .chisono-photo {
   width: auto;
-  height: 60vh;
+  height: auto;
 
   @media screen and (max-width: 1100px) {
     height: auto;
-    width: 100%;
+    width: auto;
   }
 }
 
@@ -1305,42 +1321,42 @@ ul li a.active {
 }
 
 .coding {
-  background-image: url("../coding.png");
+  background-image: url("../blog/coding.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .web3 {
-  background-image: url("../web3.png");
+  background-image: url("../blog/web3.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .blockchain {
-  background-image: url("../blockchain-cat.png");
+  background-image: url("../blog/blockchain-cat.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .criptovalute {
-  background-image: url("../criptovalute.png");
+  background-image: url("../blog/criptovalute.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .nft-metaverso {
-  background-image: url("../nft-metaverso.png");
+  background-image: url("../blog/nft-metaverso.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .finanza-personale {
-  background-image: url("../finanza-personale.png");
+  background-image: url("../blog/finanza-personale.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
