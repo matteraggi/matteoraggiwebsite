@@ -8,6 +8,8 @@ function WorkList() {
                 company="Logica Srl"
                 jobType="Part-time"
                 startDate="ott 2025"
+                endDate="apr 2026"
+                techStack={[".NET", "Angular", "MicrosoftSQL", "SCSS"]}
                 location="San Lazzaro di Savena, Bologna, Italia"
                 companyLink="https://logicasistemi.com/"
             />
@@ -21,7 +23,7 @@ function WorkList() {
                 endDate="feb 2024"
                 location="Bologna, Italia"
                 companyLink="https://bitapp.it/"
-                techStack={["React", "TypeScript", "TailwindCSS"]}
+                techStack={["React", "TailwindCSS"]}
                 description="Questo progetto, per il quale ho sviluppato solo la parte front-end, è un depliant di presentazione Hotel creato per il gruppo Hotel CHC.
                             La piattaforma ha lo scopo di mostrare a potenziali nuovi partner gli Hotel che fanno già parte del gruppo, le loro caratteristiche e i servizi offerti.
                             Il front-end, costruito in react, si basa su una struttura backend interamente in cloud, su AWS, con GraphQL come linguaggio di comunicazione tra le due parti."
