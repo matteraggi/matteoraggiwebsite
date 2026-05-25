@@ -4,7 +4,7 @@ function WorkList() {
     return (
         <div className="flex flex-column gap-8">
             <WorkItem
-                jobTitle="Programmatore Software"
+                jobTitle="Programmatore Software Full Stack"
                 company="Logica Srl"
                 jobType="Part-time"
                 startDate="ott 2025"
